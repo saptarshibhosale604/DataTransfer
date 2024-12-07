@@ -1,1 +1,10 @@
+import subprocess
 
+def get_temperature():
+    result = subprocess.run(["vcgencmd", "measure_temp"], capture_output=True, text=True)
+    temp_str = result.stdout.strip()
+    temperature = float(temp_str.split('=')[1].split('\'')[0])  # Extract numeric value
+    return temperature
+
+# Example usage
+print(f"CPU Temperature: {get_temperature()}°C")
