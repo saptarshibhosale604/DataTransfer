@@ -4,4 +4,4 @@ sudo dpkg -i cloudflared.deb &&
 
 sudo cloudflared service install eyJhIjoiZTJmZDUzNDNmMTBiM2NmOTA2YzU2YjdmMDU2ZGRiYzkiLCJ0IjoiOGQ4MjY4YjgtMjU3ZC00NmE4LWI0YzktMWU3N2Y2ZTZhZjY0IiwicyI6IlpqazRZekV3T0dZdE1UQmpOeTAwTVdNekxUaGtObVl0TkRBeE5HSmtORFl6TVdReCJ9
 
-  
+ 106.210.255.91
