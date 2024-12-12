@@ -1,3 +1,8 @@
+// add this in logseq
+
+git pull origin main
+
+
 https://core-electronics.com.au/guides/hand-identification-raspberry-pi/
 
 curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb && 
