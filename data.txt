@@ -1,3 +1,8 @@
+// hugging face
+name: llmKey01
+key: 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
+Permission: FINEGRAINED
+
 // add this in logseq
 
 git pull origin main
