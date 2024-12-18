@@ -1,4 +1,4 @@
-#### textToSpeech modification ####
+#### done textToSpeech modification ####
 import threading
 import time
 from gtts import gTTS
@@ -57,7 +57,7 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
-####  timer.sh ####  
+#### done timer.sh ####  
 # e.g 
 # timer.sh 1 sec
 # timer.sh 2 min
@@ -95,7 +95,7 @@ done
 
 printf "\rCountdown: Time's up!      \n"  # Print the final message
 
-####  stopwatch.sh ####  
+#### done  stopwatch.sh ####  
 #!/bin/bash
 
 echo "Press [ENTER] to start the stopwatch"
@@ -128,15 +128,15 @@ elapsed_time=$(( $(date +%s) - start_time ))
 printf "\nFinal elapsed time: %02d:%02d:%02d\n" $((elapsed_time / 3600)) $(( (elapsed_time % 3600) / 60 )) $((elapsed_time % 60))
 
 
-####  cmds.py ####  
+#### done  cmds.py ####  
 free -h # RAM.
 df -h # ROM
 top -bn1 | grep "Cpu(s)" # CPU
-scrot ~/Screenshots/my_screenshot.png # screenshot of entire screen
-scrot -s ~/Screenshots/my_screenshot.png # specific window screenshot
+scrot ~/Pictures/Screenshots/my_screenshot.png # screenshot of entire screen
+scrot -s ~/Pictures/Screenshots/my_screenshot.png # specific window screenshot
+du -h --max-depth=1 # show size of current dir and subdir
 
-
-####  fingersUpDownCount.py ####  
+#### Done fingersUpDownCount.py ####  
 
 int fanSpeed = 0
 # Fan speed control
