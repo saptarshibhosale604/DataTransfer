@@ -1,3 +1,42 @@
+#### textToSpeech modification ####
+import threading
+import time
+from gtts import gTTS
+import os
+from playsound import playsound
+
+def text_to_speech(chunk):
+    # Create a gTTS object for the chunk
+    tts = gTTS(text=chunk, lang='en')
+    # Save the audio to a temporary file
+    tts.save("temp.mp3")
+    # Play the audio file
+    playsound("temp.mp3")
+    # Optionally, remove the file after playing
+    os.remove("temp.mp3")
+
+def main():
+    # Your large paragraph
+    text = """This is a large paragraph that you want to convert to speech. 
+    It contains multiple sentences and should be spoken in a natural manner. 
+    The goal is to start speaking as soon as possible without waiting for the entire 
+    text to be converted to audio. Let's break this down into smaller chunks 
+    for better processing and playback."""
+
+    # Split the text into chunks (you can adjust the size of the chunks)
+    chunks = text.split('. ')  # Split by sentences for this example
+
+    for chunk in chunks:
+        # Start the TTS conversion in a separate thread for each chunk
+        tts_thread = threading.Thread(target=text_to_speech, args=(chunk,))
+        tts_thread.start()
+        
+        # Wait for the TTS thread to finish before moving to the next chunk
+        tts_thread.join()
+
+if __name__ == "__main__":
+    main()
+
 ####  loggin.py ####  
 import logging
 
