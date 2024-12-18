@@ -3,11 +3,10 @@
 free -h # RAM.
 df -h # ROM
 top -bn1 | grep "Cpu(s)" # CPU
-scrot ~/Pictures/Screenshots/my_screenshot.png # screenshot of entire screen
-scrot -s ~/Pictures/Screenshots/my_screenshot.png # specific window screenshot
 du -h --max-depth=1 # show size of current dir and subdir
 
-du -h --max-depth=1 | sort -h
+du -h --max-depth=1 | sort -h	# size and sort
+grim ~/Pictures/Screenshots/my_screenshot.png # screenshot
 
 #### done textToSpeech modification ####
 import threading
