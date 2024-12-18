@@ -73,6 +73,9 @@ printf "\nFinal elapsed time: %02d:%02d:%02d\n" $((elapsed_time / 3600)) $(( (el
 free -h # RAM.
 df -h # ROM
 top -bn1 | grep "Cpu(s)" # CPU
+scrot ~/Screenshots/my_screenshot.png # screenshot of entire screen
+scrot -s ~/Screenshots/my_screenshot.png # specific window screenshot
+
 
 ####  fingersUpDownCount.py ####  
 
