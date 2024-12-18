@@ -1,3 +1,14 @@
+
+#### cmds.py ####  
+free -h # RAM.
+df -h # ROM
+top -bn1 | grep "Cpu(s)" # CPU
+scrot ~/Pictures/Screenshots/my_screenshot.png # screenshot of entire screen
+scrot -s ~/Pictures/Screenshots/my_screenshot.png # specific window screenshot
+du -h --max-depth=1 # show size of current dir and subdir
+
+du -h --max-depth=1 | sort -h
+
 #### done textToSpeech modification ####
 import threading
 import time
@@ -128,13 +139,6 @@ elapsed_time=$(( $(date +%s) - start_time ))
 printf "\nFinal elapsed time: %02d:%02d:%02d\n" $((elapsed_time / 3600)) $(( (elapsed_time % 3600) / 60 )) $((elapsed_time % 60))
 
 
-#### done  cmds.py ####  
-free -h # RAM.
-df -h # ROM
-top -bn1 | grep "Cpu(s)" # CPU
-scrot ~/Pictures/Screenshots/my_screenshot.png # screenshot of entire screen
-scrot -s ~/Pictures/Screenshots/my_screenshot.png # specific window screenshot
-du -h --max-depth=1 # show size of current dir and subdir
 
 #### Done fingersUpDownCount.py ####  
 
