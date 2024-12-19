@@ -9,6 +9,30 @@ du -h --max-depth=1 | sort -h	# size and sort
 grim ~/Pictures/Screenshots/my_screenshot.png # screenshot
 
 ####  loggin.py ####  
+
+# Create a logger
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+
+# Create a file handler
+file_handler = logging.FileHandler("Logs/basic.log")
+file_handler.setLevel(logging.DEBUG)
+
+# Create a console handler
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.DEBUG)
+
+# Create a formatter and set it for both handlers
+formatter = logging.Formatter("%(asctime)s %(levelname)s %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+
+# Add the handlers to the logger
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+
+
+
 import logging
 
 def main() -> None:
