@@ -1,4 +1,35 @@
-#### chatbot.py ####
+
+#### cmds.py ####  
+free -h # RAM.
+df -h # ROM
+top -bn1 | grep "Cpu(s)" # CPU
+du -h --max-depth=1 # show size of current dir and subdir
+
+du -h --max-depth=1 | sort -h	# size and sort
+grim ~/Pictures/Screenshots/my_screenshot.png # screenshot
+
+####  loggin.py ####  
+import logging
+
+def main() -> None:
+    logging.basicConfig(
+        level=logging.DEBUG,
+        format="%(asctime)s %(levelname)s %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+        filename="Logs/basic.log",
+    )
+
+    logging.debug("This is a debug message.")
+    logging.info("This is an info message.")
+    logging.warning("This is a warning message.")
+    logging.error("This is an error message.")
+    logging.critical("This is a critical message.")
+
+if __name__ == "__main__":
+    main()
+
+
+#### done chatbot.py ####
 import TextToSpeech.textToSpeechOnline02 as TTS
 import SpeechToText.speechToTextOnline as STT
 import LLM.llm as LLM
@@ -49,15 +80,6 @@ def Main():
 while(True):
 	Main()
 	
-#### cmds.py ####  
-free -h # RAM.
-df -h # ROM
-top -bn1 | grep "Cpu(s)" # CPU
-du -h --max-depth=1 # show size of current dir and subdir
-
-du -h --max-depth=1 | sort -h	# size and sort
-grim ~/Pictures/Screenshots/my_screenshot.png # screenshot
-
 #### done textToSpeech modification ####
 import threading
 import time
@@ -93,26 +115,6 @@ def main():
         
         # Wait for the TTS thread to finish before moving to the next chunk
         tts_thread.join()
-
-if __name__ == "__main__":
-    main()
-
-####  loggin.py ####  
-import logging
-
-def main() -> None:
-    logging.basicConfig(
-        level=logging.DEBUG,
-        format="%(asctime)s %(levelname)s %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S",
-        filename="Logs/basic.log",
-    )
-
-    logging.debug("This is a debug message.")
-    logging.info("This is an info message.")
-    logging.warning("This is a warning message.")
-    logging.error("This is an error message.")
-    logging.critical("This is a critical message.")
 
 if __name__ == "__main__":
     main()
