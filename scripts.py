@@ -1,4 +1,54 @@
+#### chatbot.py ####
+import TextToSpeech.textToSpeechOnline02 as TTS
+import SpeechToText.speechToTextOnline as STT
+import LLM.llm as LLM
 
+debug01 = True
+
+print("Initialized Chatbot")
+userInput = "sleep" 	# sleep: Go to Hibernate
+						# wakeUp: Goint to answer the user input
+listWakeUpCalls = ["hey there", "hi there", "hey rpi"]
+listSleepCalls = ["sleep now", "go to sleep", "we are done", "got it"]
+
+roleDefining = f"""For the 'User Input' given below
+answer as you are a 'JARVIS' from the 'Iron Man' movie
+User Input = """
+
+def Main():
+	# Getting user input
+	# userInput = "Hey there how its going on?" # sample 
+	# userInput = input("userInput: ")	# Text 
+	userInput = STT.Main()			# Speech To Text
+	
+	print("userInput:",userInput)	
+	
+	if (userInput is not None):
+		if(debug01): print("userInput Not null")
+
+		# Checking for wake up call
+		if any(call in userInput.lower() for call in listWakeUpCalls):
+	 		conversationMode = "wakeUp"
+		# Checking for sleep call
+	   	elif any(call in userInput.lower() for call in listSleepCalls):
+	 		conversationMode = "sleep"
+
+		if(debug01): print("conversationMode:",conversationMode)
+		
+		if (conversationMode == wakeUp):
+			userInput = roleDefining + userInput			
+			print("userInputWithDefinedRole:",userInput)
+
+			# Getting responce from LLM model
+			llmResponce = LLM.Main(userInput)	
+			print("llmResponce:",llmResponce)
+
+			# Text to speech
+			TTS.Main(llmResponce)
+
+while(True):
+	Main()
+	
 #### cmds.py ####  
 free -h # RAM.
 df -h # ROM
