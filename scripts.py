@@ -1,4 +1,4 @@
-#### userInputToServiceInvocation.py ####
+#### userInputToScriptInvocation.py ####
 
 import json
 import smartSpace.py
@@ -15,7 +15,7 @@ def RecognizeIntent(user_input, intent):
 	return None, None
 
 
-def InvokeService(scriptName, parameterList, userInput):
+def InvokeScript(scriptName, parameterList, userInput):
 	if intent == "smartSpce.py":
 		smartSpace.Main() userInput
 	elif intent == "basicCmd.py":
@@ -27,7 +27,7 @@ def Main():
 	scriptName, parameterList = RecognizeIntent(userInput, intentListFile)
 	
 	if(scriptName is not None):
-		InvokeService(scriptName, parameterList, userInput)
+		InvokeScript(scriptName, parameterList, userInput)
 	else:
 		print("General query")
 
