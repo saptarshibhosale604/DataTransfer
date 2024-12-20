@@ -1,3 +1,98 @@
+#### service invocation.py ####
+def Control_appliance(parameters):
+	# Code to control appliances
+	print(f"Controlling appliance with parameters: {parameters}")
+
+def Water_plant(parameters):
+	# Code to water plants
+	print(f"Watering plant with parameters: {parameters}")
+
+def Run_custom_script(parameters):
+	# Code to run custom scripts
+	print(f"Running custom script with parameters: {parameters}")
+
+def Invoke_service(intent, parameters):
+	if intent == "ControlAppliance":
+		Control_appliance(parameters)
+	elif intent == "WaterPlant":
+		Water_plant(parameters)
+	elif intent == "RunCustomScript":
+		Run_custom_script(parameters)
+	else:
+		print("Unknown intent.")
+
+
+#### intent recognition.py ####
+import json
+
+
+with open('intentList.json') as f:
+intentListFile = json.load(f)
+	
+def Recognize_intent(user_input, intentListFile):
+	for intent in intents['intents']:
+		for keyword in intent['keywords']:
+			if keyword in user_input.lower():
+				return intent['cmd']
+	return None
+	
+userCmd = Recognize_intent(userInput, intents)
+
+Invoke_service(intent, parameters)
+#### intentList.json ####
+
+{
+	"intents": [
+		{
+			"cmd": "ControlAppliance",
+			"keywords": ["turn on", "turn off", "set temperature", "adjust light"]
+		},
+		{
+			"cmd": "WaterPlant",
+			"keywords": ["water plant", "irrigate", "moisture check"]
+		},
+		{
+			"cmd": "RunCustomScript",
+			"keywords": ["run script", "execute command"]
+		}
+	]
+}
+
+#### BT triggering.py ####
+# .sh cmds
+# sudo systemctl start bluetooth
+# sudo systemctl status bluetooth
+
+import bluetooth
+
+def on_bluetooth_connected(addr):
+	print(f"Bluetooth device connected: {addr}")
+	# Trigger your event here
+	# For example, you can call another function or execute a command
+	trigger_event()
+
+def trigger_event():
+	# Your event logic here
+	print("Event triggered!")
+
+def main():
+	server_sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
+	port = bluetooth.PORT_ANY
+	server_sock.bind(("", port))
+	server_sock.listen(1)
+	
+	uuid = "00001101-0000-1000-8000-00805F9B34FB"  # Standard SerialPortService ID
+	bluetooth.advertise_service(server_sock, "SampleServer", service_id=uuid)
+	
+	print("Waiting for connection on RFCOMM channel...")
+	while True:
+		client_sock, client_info = server_sock.accept()
+		print(f"Accepted connection from {client_info}")
+		on_bluetooth_connected(client_info[0])
+		client_sock.close()
+
+if __name__ == "__main__":
+	main()	
 
 #### cmds.py ####  
 free -h # RAM.
@@ -8,7 +103,7 @@ du -h --max-depth=1 # show size of current dir and subdir
 du -h --max-depth=1 | sort -h	# size and sort
 grim ~/Pictures/Screenshots/my_screenshot.png # screenshot
 
-####  loggin.py ####  
+#### Done loggin.py ####  
 
 # Create a logger
 logger = logging.getLogger()
