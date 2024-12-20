@@ -1,62 +1,69 @@
-#### service invocation.py ####
-def Control_appliance(parameters):
-	# Code to control appliances
-	print(f"Controlling appliance with parameters: {parameters}")
+#### userInputToServiceInvocation.py ####
 
-def Water_plant(parameters):
-	# Code to water plants
-	print(f"Watering plant with parameters: {parameters}")
-
-def Run_custom_script(parameters):
-	# Code to run custom scripts
-	print(f"Running custom script with parameters: {parameters}")
-
-def Invoke_service(intent, parameters):
-	if intent == "ControlAppliance":
-		Control_appliance(parameters)
-	elif intent == "WaterPlant":
-		Water_plant(parameters)
-	elif intent == "RunCustomScript":
-		Run_custom_script(parameters)
-	else:
-		print("Unknown intent.")
-
-
-#### intent recognition.py ####
 import json
-
+import smartSpace.py
+import basicCmd.py
 
 with open('intentList.json') as f:
-intentListFile = json.load(f)
+	intentListFile = json.load(f)
 	
-def Recognize_intent(user_input, intentListFile):
+def RecognizeIntent(user_input, intent):
 	for intent in intents['intents']:
 		for keyword in intent['keywords']:
 			if keyword in user_input.lower():
-				return intent['cmd']
-	return None
-	
-userCmd = Recognize_intent(userInput, intents)
+				return intent['script'], intent['parameter']				
+	return None, None
 
-Invoke_service(intent, parameters)
+
+def InvokeService(scriptName, parameterList, userInput):
+	if intent == "smartSpce.py":
+		smartSpace.Main() userInput
+	elif intent == "basicCmd.py":
+		basicCmd.Main() paramterList
+	else:
+		print("Unknown intent.")
+
+def Main():	
+	scriptName, parameterList = RecognizeIntent(userInput, intentListFile)
+	
+	if(scriptName is not None):
+		InvokeService(scriptName, parameterList, userInput)
+	else:
+		print("General query")
+
 #### intentList.json ####
 
 {
 	"intents": [
 		{
-			"cmd": "ControlAppliance",
+			"script": "smartSpce.py",			
 			"keywords": ["turn on", "turn off", "set temperature", "adjust light"]
 		},
 		{
-			"cmd": "WaterPlant",
-			"keywords": ["water plant", "irrigate", "moisture check"]
+			"script": "basicCmd.py",
+			"parameter":"cpu"
+			"keywords": ["cpu usage, cpu"]
 		},
 		{
-			"cmd": "RunCustomScript",
-			"keywords": ["run script", "execute command"]
+			"script": "basicCmd.py",
+			"parameter":"ram"
+			"keywords": ["ram usage, ram, memory"]
+		},
+		{
+			"script": "basicCmd.py",
+			"parameter":"rom"
+			"keywords": ["rom usage, rom, storage"]
+		},
+		{
+			"script": "basicCmd.py",
+			"parameter":"screenshot"
+			"keywords": ["cpu usage, cpu"]
 		}
+		
 	]
 }
+
+
 
 #### BT triggering.py ####
 # .sh cmds
@@ -98,10 +105,10 @@ if __name__ == "__main__":
 free -h # RAM.
 df -h # ROM
 top -bn1 | grep "Cpu(s)" # CPU
-du -h --max-depth=1 # show size of current dir and subdir
-
-du -h --max-depth=1 | sort -h	# size and sort
 grim ~/Pictures/Screenshots/my_screenshot.png # screenshot
+
+du -h --max-depth=1 # show size of current dir and subdir
+du -h --max-depth=1 | sort -h	# size and sort
 
 #### Done loggin.py ####  
 
