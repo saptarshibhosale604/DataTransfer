@@ -1,3 +1,8 @@
+// open ai
+sk-proj-cuE7DOWQu9NP6cJYC-WeKFAEx70p1Ha_1tJZ_C_pudH98-D3RDrC4Bc21Pzo-LQJBgNiZoi5_xT3Blb kFJPBlgfpoEjohgo4HA53Fk6TayP1RFy50BJvG7I4r-0njd5SUKpC3N3Q9BMuxYf Q6DEnCIj9xKQA
+
+my key 01
+
 // hugging face
 name: llmKey01
 key: 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
