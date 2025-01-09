@@ -1,4 +1,15 @@
-## llm.py ##
+## chatbot02.py ##
+
+from langchain_core.messages import HumanMessage, SystemMessage
+
+messages = [
+    SystemMessage("Translate the following from English into Italian"),
+    HumanMessage("hi!"),
+]
+
+model.invoke(messages)
+
+
 
 import getpass
 import os
