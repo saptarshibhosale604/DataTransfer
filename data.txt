@@ -8,6 +8,12 @@ sk-proj-cuE7DOWQu9NP6cJYC-WeKFAEx70p1Ha_1tJZ_C_pudH98-D3RDrC4Bc21Pzo-LQJBgNiZoi5
 
 my key 01
 
+
+myTestKey02
+
+sk-proj-rElG4zqO7a76Y-h_Sk8ameK0dWwyjPbjzjSA739cMZ9UPwnkGn3yGjaoyuuceVcYiziBMn
+8VR_T3BlbkFJWYFlefeo699dW83a4BJBU9M9n6T7_FotA5yiL7b3VFGAXvuRmDaRBdicxSjPcdqwfmhftcNykA
+
 // hugging face
 name: llmKey01
 key: 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
