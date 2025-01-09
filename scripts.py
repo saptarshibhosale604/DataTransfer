@@ -1,3 +1,26 @@
+## llm.py ##
+
+import getpass
+import os
+# from langchain_nvidia_ai_endpoints import ChatNVIDIA
+from langchain_openai import ChatOpenAI
+
+# NIVIDIA key, ssbautomation0@gmail.com
+# Username: $oauthtoken
+# Password: NjNqOHFtbGlzaWI4MjZ1cTR1c3FvcXVwbG86NzBkOTcxNzktMDBkZC00ODZiLTkxYzYtZjU3YzM4YjNkM2Qx
+
+# if not os.environ.get("NVIDIA_API_KEY"):
+#   os.environ["NVIDIA_API_KEY"] = "NjNqOHFtbGlzaWI4MjZ1cTR1c3FvcXVwbG86NzBkOTcxNzktMDBkZC00ODZiLTkxYzYtZjU3YzM4YjNkM2Qx"
+
+
+if not os.environ.get("OPENAI_API_KEY"):
+  os.environ["OPENAI_API_KEY"] = "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" # saptarshibhosale604@gmail.com, my key01
+
+# model = ChatNVIDIA(model="meta/llama3-70b-instruct")
+model = ChatOpenAI(model="gpt-4o-mini")
+
+model.invoke("Hello, world!")
+
 ##openCV object tracker
 import cv2
 import numpy as np
