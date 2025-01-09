@@ -14,6 +14,10 @@ myTestKey02
 sk-proj-rElG4zqO7a76Y-h_Sk8ameK0dWwyjPbjzjSA739cMZ9UPwnkGn3yGjaoyuuceVcYiziBMn
 8VR_T3BlbkFJWYFlefeo699dW83a4BJBU9M9n6T7_FotA5yiL7b3VFGAXvuRmDaRBdicxSjPcdqwfmhftcNykA
 
+myTestKey03 
+sk-proj-2KFIrFEBvNGRtwkK7X0OrJGM3A6Mi-69XhT3bjBp3cigp_b5VXhbox7gLmtoird_oqq28F8K6NT3Blb
+kFJvI597vxKzw1h9-eWdF4RGvD24QsTLyW8h_KC0uBwsdizhIpaJKquWXt82m_g2QkX9s2Vb8xWQA
+
 // hugging face
 name: llmKey01
 key: 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
