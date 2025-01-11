@@ -1,3 +1,8 @@
+// langsmith
+ssbautomation0@gmail.com
+lsv2_pt_a1ca76fbf3a745
+838528f83e7cd5a332_2c653b3e2f
+
 // add logseq git.md 
 git log --oneline --graph --decorate --all // inspect the difference between branches
 git push origin --delete main02  // delete remote branch
