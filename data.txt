@@ -1,5 +1,6 @@
 // add logseq git.md 
 git log --oneline --graph --decorate --all // inspect the difference between branches
+git push origin --delete main02  // delete remote branch
 
 
 // nvidia
