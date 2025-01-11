@@ -1,3 +1,7 @@
+// add logseq git.md 
+git log --oneline --graph --decorate --all // inspect the difference between branches
+
+
 // nvidia
 
 NjNqOHFtbGlzaWI4MjZ1cTR1c3FvcXVwbG86NTE5MTkz
