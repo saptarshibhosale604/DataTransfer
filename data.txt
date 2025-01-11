@@ -1,4 +1,10 @@
-// langsmith
+// tavily.com, for llm google search
+https://app.tavily.com/home?code=RL_1xcPHOs6qrB3uHCv9e5g0Fsl0bWCdbuxDIM6M0d2WR&state=eyJyZXR1cm5UbyI6Ii9ob21lIn0
+tvly-kX76LCzC36o
+ih0u9COcf6oa53A47MX0g
+
+// langsmith, for logging
+https://smith.langchain.com/onboarding?organizationId=4b082ec7-d748-486a-9dad-a20f88c6bbca&step=1
 ssbautomation0@gmail.com
 lsv2_pt_a1ca76fbf3a745
 838528f83e7cd5a332_2c653b3e2f
