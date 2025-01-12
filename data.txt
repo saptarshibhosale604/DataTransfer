@@ -1,3 +1,14 @@
+//Twilio, message, whatsapp, communication
+https://console.twilio.com/
+Recovery Code: DYSU8WXSBBJB8
+NPV8SS2CQG1
+SID: SKe75fac054dbf4e3e056dd
+b2306859ecb
+myTestKey01: mcMNbrkehOd9qZt9
+rHRUxppriAHkKuoK
+region: us
+key type: standard
+
 // tavily.com, for llm google search
 https://app.tavily.com/home?code=RL_1xcPHOs6qrB3uHCv9e5g0Fsl0bWCdbuxDIM6M0d2WR&state=eyJyZXR1cm5UbyI6Ii9ob21lIn0
 tvly-kX76LCzC36o
