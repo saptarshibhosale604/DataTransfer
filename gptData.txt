@@ -1,3 +1,256 @@
+
+
+To enable communication between two Docker containers running simple Flask apps, follow these steps:
+
+
+---
+
+Step 1: Create Two Flask Applications
+
+App 1 (Service A)
+
+This app will run on port 5000 and provide a simple API.
+
+app1.py
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello from Service A!"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+
+Dockerfile for App 1
+
+FROM python:3.9
+
+WORKDIR /app
+
+COPY app1.py .
+
+RUN pip install flask
+
+CMD ["python", "app1.py"]
+
+
+---
+
+App 2 (Service B)
+
+This app will communicate with App 1 by making a request to its API.
+
+app2.py
+
+import requests
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def communicate():
+    response = requests.get("http://service_a:5000")  # Using service name
+    return f"Service B received: {response.text}"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5001)
+
+Dockerfile for App 2
+
+FROM python:3.9
+
+WORKDIR /app
+
+COPY app2.py .
+
+RUN pip install flask requests
+
+CMD ["python", "app2.py"]
+
+
+---
+
+Step 2: Create a docker-compose.yml
+
+This file defines both services and allows them to communicate via a Docker network.
+
+docker-compose.yml
+
+version: '3'
+
+services:
+  service_a:
+    build: ./service_a
+    ports:
+      - "5000:5000"
+    networks:
+      - mynetwork
+
+  service_b:
+    build: ./service_b
+    ports:
+      - "5001:5001"
+    depends_on:
+      - service_a
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
+
+
+---
+
+Step 3: Build and Run Containers
+
+Navigate to the directory containing docker-compose.yml and run:
+
+docker-compose up --build
+
+
+---
+
+Step 4: Test Communication
+
+Open a browser or use curl to test:
+
+Service A:
+
+curl http://localhost:5000
+
+Expected Output: "Hello from Service A!"
+
+Service B:
+
+curl http://localhost:5001
+
+Expected Output: "Service B received: Hello from Service A!"
+
+
+Now, both services are communicating successfully using Docker networking.
+
+Would you like to extend this setup with logging, environment variables, or a database?
+
+
+
+
+A clean and organized file structure for your two Flask apps in Docker should look like this:
+
+docker-flask-app/
+│── service_a/
+│   ├── app1.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│── service_b/
+│   ├── app2.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│── docker-compose.yml
+│── README.md
+
+Breakdown of the Structure
+
+1. docker-flask-app/ (Project Root)
+
+This is the main directory that contains everything related to the project.
+
+
+
+2. service_a/ (First Flask Service)
+
+app1.py: Flask application code for Service A.
+
+Dockerfile: Instructions to build the Docker image for Service A.
+
+requirements.txt: List of dependencies (e.g., Flask).
+
+
+
+3. service_b/ (Second Flask Service)
+
+app2.py: Flask application code for Service B.
+
+Dockerfile: Instructions to build the Docker image for Service B.
+
+requirements.txt: List of dependencies (Flask, requests).
+
+
+
+4. docker-compose.yml
+
+Defines both services and their network configuration.
+
+
+
+5. README.md
+
+Documentation about the project, setup instructions, and usage.
+
+
+
+
+
+---
+
+Example requirements.txt for Each Service
+
+Instead of installing dependencies inside Dockerfile, it's a good practice to use requirements.txt:
+
+service_a/requirements.txt
+
+Flask
+
+service_b/requirements.txt
+
+Flask
+requests
+
+Update Dockerfiles to Use requirements.txt
+
+Modify each service's Dockerfile to install dependencies from requirements.txt:
+
+service_a/Dockerfile
+
+FROM python:3.9
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY app1.py .
+
+CMD ["python", "app1.py"]
+
+service_b/Dockerfile
+
+FROM python:3.9
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY app2.py .
+
+CMD ["python", "app2.py"]
+
+
+---
+
+Running the Project
+
+docker-compose up --build
+
+Would you like to add environment variables or logging for better management?
+
+
+
+--------------------------------------------------
 import subprocess
 
 def get_temperature():
