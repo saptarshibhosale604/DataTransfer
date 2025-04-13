@@ -1,0 +1,10 @@
+// // git
+// install git-credential-manager
+147  wget https://aka.ms/gcm/linux-install-source.sh
+  148  chmod +x linux-install-source.sh
+  149  ./linux-install-source.sh
+
+
+git config --global credential.credentialStore secretservice
+  
+159  git pull origin main
