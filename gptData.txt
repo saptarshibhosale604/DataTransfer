@@ -1,3 +1,28 @@
+--------------
+create one python script which reads a file name data.txt and create a result.csv file from it
+
+data.txt file contains similar structured results of 2 sql statements.
+data.txt - +-------------------------------+-------------+---------------+-------------+---------------+----------------------------------------------------+------+---------+------------+
+| created_on | name | database_name | schema_name | owner | comment | type | mode | value_list |
+|-------------------------------+-------------+---------------+-------------+---------------+----------------------------------------------------+------+---------+------------|
+| 2024-09-20 21:36:19.675 +0000 | BREAK_GLASS | HMH_ACCOUNT | SECURITY | SECURITYADMIN | Rule to allow all traffic. Applied to admin users | IPV4 | INGRESS | 0.0.0.0/0 |
++-------------------------------+-------------+---------------+-------------+---------------+----------------------------------------------------+------+---------+------------+
+1 Row(s) produced. Time Elapsed: 1.005s
++-------------------------------+---------------+---------------+-------------+---------------+----------------------------------------------------------+------+---------+----------------------------------------+
+| created_on | name | database_name | schema_name | owner | comment | type | mode | value_list |
+|-------------------------------+---------------+---------------+-------------+---------------+----------------------------------------------------------+------+---------+----------------------------------------|
+| 2024-09-20 21:36:21.046 +0000 | HMH_CORPORATE | HMH_ACCOUNT | SECURITY | SECURITYADMIN | ip addresses for hmh and nwea vpn and datacenter sources | IPV4 | INGRESS | 10.0.0.0/8,10.100.0.0/16,10.128.0.0/16 |
++-------------------------------+---------------+---------------+-------------+---------------+----------------------------------------------------------+------+---------+----------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.402s
+Goodbye!
+
+Format of the result.csv file should be
+header - name, value_list
+values - BREAK_GLASS, 0.0.0.0/0
+           and so on....
+
+
+
 ---
 
 1. Install Docker-Compose on Amazon Linux
