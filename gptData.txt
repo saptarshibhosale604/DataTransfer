@@ -1,3 +1,37 @@
+
+---------------
+
+import csv
+import re
+
+input_file = 'data.txt'
+output_file = 'result.csv'
+
+rows = []
+
+with open(input_file, 'r') as file:
+    lines = file.readlines()
+
+# Process lines to extract valid data rows
+for line in lines:
+    # Match lines that start with | and have multiple fields separated by |
+    if re.match(r'^\|\s*\d{4}-\d{2}-\d{2}', line):
+        parts = [part.strip() for part in line.strip().split('|') if part.strip()]
+        if len(parts) >= 9:
+            name = parts[1]
+            value_list = parts[8]
+            rows.append((name, value_list))
+
+# Write to CSV
+with open(output_file, 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(['name', 'value_list'])  # Header
+    writer.writerows(rows)
+
+print(f"Extracted {len(rows)} rows into {output_file}")
+
+
+
 --------------
 create one python script which reads a file name data.txt and create a result.csv file from it
 
