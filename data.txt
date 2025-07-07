@@ -1,3 +1,6 @@
+// bt hid, rpi
+https://github.com/Dreamsorcerer/bthidhub
+
 // bluetooth mac
 88:52:eb:c1:07:2f
 
