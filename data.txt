@@ -1,3 +1,7 @@
+// gemini
+AIzaSyBOEkSs_vg7S3
+kfx-GCl4YnWlDLYSM2v6U
+
 // bt hid, rpi
 https://github.com/Dreamsorcerer/bthidhub
 
