@@ -1,3 +1,6 @@
+// vim
+za // toggle fold unfold current block
+
 // // git
 // install git-credential-manager
 147  wget https://aka.ms/gcm/linux-install-source.sh
