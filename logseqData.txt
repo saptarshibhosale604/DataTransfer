@@ -1,5 +1,27 @@
 // vim
 za // toggle fold unfold current block
+zc (close fold): 
+
+    This command closes the current fold (collapses it). 
+
+3. zo (open fold): 
+
+    This command opens the current fold (expands it). 
+
+4. za (toggle fold): 
+
+    This command toggles the current fold, opening it if it's closed and closing it if it's open. 
+
+5. zM (close all folds): 
+
+    This command closes all folds in the current buffer. 
+
+6. zR (open all folds): 
+
+    This command opens all folds in the current buff
+
+
+
 
 // // git
 // install git-credential-manager
