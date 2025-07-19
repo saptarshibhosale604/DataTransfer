@@ -1,3 +1,7 @@
+// linux
+script session.log # write cmd and it's output to a log file
+exit # exit the session
+
 // vim
 za // toggle fold unfold current block
 zc (close fold): 
