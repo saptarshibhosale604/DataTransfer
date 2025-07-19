@@ -3,6 +3,24 @@ script session.log # write cmd and it's output to a log file
 exit # exit the session
 
 // vim
+Buffers are files loaded into memory;
+`Ctrl-w H,J,K,L` or arrow keys navigate between windows.
+
+Ctrl-w > → increase width (right)
+
+Ctrl-w < → decrease width (left)
+
+Ctrl-w + → increase height
+
+Ctrl-w - → decrease height
+
+Ctrl-w = → equalize all window sizes
+
+:vsplit / split
+`:only` keeps only the active window.
+`:new`  creates new empty windows
+:vnew // vertical new empty window
+
 za // toggle fold unfold current block
 zc (close fold): 
 
