@@ -1,25 +1,6 @@
-// linux
-script session.log # write cmd and it's output to a log file
-exit # exit the session
 
 // vim
 Buffers are files loaded into memory;
-`Ctrl-w H,J,K,L` or arrow keys navigate between windows.
-
-Ctrl-w > → increase width (right)
-
-Ctrl-w < → decrease width (left)
-
-Ctrl-w + → increase height
-
-Ctrl-w - → decrease height
-
-Ctrl-w = → equalize all window sizes
-
-:vsplit / split
-`:only` keeps only the active window.
-`:new`  creates new empty windows
-:vnew // vertical new empty window
 
 za // toggle fold unfold current block
 zc (close fold): 
@@ -44,26 +25,3 @@ zc (close fold):
 
 
 
-
-// // git
-// install git-credential-manager
-147  wget https://aka.ms/gcm/linux-install-source.sh
-  148  chmod +x linux-install-source.sh
-  149  ./linux-install-source.sh
-
-
-git config --global credential.credentialStore secretservice
-  
-159  git pull origin main
-
-// ssh
-ssh-keygen -t ed25519 -C "your_email@example.com" // generate key
-
-eval "$(ssh-agent -s)"
-ssh-add GitSSHAuthentication/key05
-
-cat ~/.ssh/id_ed25519.pub
-
-GITHUB SSH add key
-
-  183  ssh -T git@github.com // check connection
