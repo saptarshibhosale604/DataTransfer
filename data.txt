@@ -1,3 +1,68 @@
+// nvim config
+
+
+-- export GEMINI_API_KEY=AIzaSyBwIrjcMjKA1 V3XJ_hCLurJx33wh33NWdk
+vim.env.GEMINI_API_KEY = "AIzaSyBwIrjc MjKA1V3XJ_hCLurJx33wh33NWdk"
+vim.env.TAVILY_API_KEY = "tvly-kX76LCzC36 oih0u9COcf6oa53A47MX0g"
+ 
+
+	-- Avante AI code generation/ completition
+	-- export GEMINI_API_KEY=AIzaSyBwIrjcMjKA1V3XJ_hCLurJx33wh33NWdk
+
+	{
+		"yetone/avante.nvim",
+		event = "VeryLazy",
+		lazy = false,
+		version = false,
+		build = "make",
+		dependencies = {
+			"stevearc/dressing.nvim",
+			"nvim-lua/plenary.nvim",
+			"MunifTanjim/nui.nvim",
+			{
+				"MeanderingProgrammer/render-markdown.nvim",
+				opts = {
+					file_types = { "markdown", "Avante" },
+				},
+				ft = { "markdown", "Avante" },
+			},
+		},
+		opts = {
+			provider = "gemini",
+			behaviour = {
+
+	-- Avante AI code generation/ completition
+	-- export GEMINI_API_KEY=AIzaSyBwIrjcMjKA1V3XJ_hCLurJx33wh33NWdk
+
+	{
+		"yetone/avante.nvim",
+		event = "VeryLazy",
+		lazy = false,
+		version = false,
+		build = "make",
+		dependencies = {
+			"stevearc/dressing.nvim",
+			"nvim-lua/plenary.nvim",
+			"MunifTanjim/nui.nvim",
+			{
+				"MeanderingProgrammer/render-markdown.nvim",
+				opts = {
+					file_types = { "markdown", "Avante" },
+				},
+				ft = { "markdown", "Avante" },
+			},
+		},
+		opts = {
+			provider = "gemini",
+			behaviour = {width = 100, -- Set focused window width to 120 cols (customize as needed)
+					minwidth = 50, -- Optional: minimum width for unfocused windows
+				},
+			})
+		end,
+	},
+
+
+
 // gemini
 AIzaSyBOEkSs_vg7S3
 kfx-GCl4YnWlDLYSM2v6U
