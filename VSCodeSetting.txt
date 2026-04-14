@@ -1,0 +1,70 @@
+{
+    "workbench.colorTheme": "AMOLED Github Theme",
+    "editor.minimap.enabled": false,
+    "aws.suppressPrompts": {
+        "codeWhispererNewWelcomeMessage": true,
+        "codeWhispererConnectionExpired": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.allowedCharacters": {
+        " ": true
+    },
+    "editor.lineNumbers": "relative",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "O", "O"
+            ],
+            "after": [
+                "O", "<Esc>", "j"
+            ]
+        }
+    ],
+    
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "o", "o"
+            ],
+            "after": [
+                "o", "<Esc>" 
+            ]
+        }
+    ],
+    
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                ";", ";"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.insertEnterDash",
+            "sequence": [
+                {
+                    "command": "type",
+                    "args": {
+                        // "text": "\n    - " 
+                        "text": "<Enter>",
+                        "text": "- "
+                    },
+                    "variableSubstitution": true
+                }
+            ],
+        }
+    ],
+    "snowflake.snowsqlConfigPath": "C:\\Users\\2261395\\.snowsql\\config",
+    "workbench.sideBar.location": "right",
+    "snowflake.showExecuteAboveStatement.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "vs-minimal",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace̥ ",
+    "window.commandCenter": true,
+    "window.zoomLevel": 1
+}
