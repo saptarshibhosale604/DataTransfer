@@ -1,0 +1,29 @@
+# Repository Breakdown
+
+## tenant-ops repo
+
+- GitLab SaaS runner permissions
+
+## snowflake-infrastructure repo
+
+- Service users and roles  
+- Secrets  
+- Database and schemas  
+
+## data-orchestration-infra repo
+
+- Hybrid agent infrastructure  
+
+## code_location repo
+
+- Dagster project  
+
+## Problems / Considerations
+
+Where does the following live:
+
+- `code_location` permissions  
+- `code_location` environment-specific config  
+- `code_location` AWS resources (e.g. S3)  
+- How does the current data-hub pattern (S3, Pipes) fit into Dagster  
+``
