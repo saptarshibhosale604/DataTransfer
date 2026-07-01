@@ -1,31 +1,16 @@
-Dagster sensors failed due to a temporary 502 Bad Gateway error from the LSEG API during authentication, which resolved automatically with no downstream impact.
+Knowledge Asset & KM Sharing
+Create and maintain knowledge assets and project documentation. Share best practices and lessons learned. Contribute to KM repositories, newsletters, and forums. Mentor team members and ensure KM portals are regularly updated
 
-JWT authentication failures occurred due to a public key fingerprint mismatch caused by unsynchronised key rotation, and self-healed after the scheduled key sync job.
+Innovation & Process/Project Initiatives
+Foster innovation by generating and implementing greater than or equal to 3 impactful ideas per quarter, measured by adoption rate, business value delivered, and cross-functional collaboration across teams or client engagements.
 
-Dagster alert triggered due to a deployment issue pulling an incorrect container image in prod, which was resolved after correcting the configuration.
+Adherence to Coding Standards
+Ensure 100% adherence to coding standards by writing clean, efficient, and maintainable code. Measured via peer code reviews, static analysis tools, and less than 2 critical violations per quarter . Also perform Code Review Quality
 
-Access to dev and staging environments was requested, implemented via MR, and successfully validated.
+Configuration/ Deployment Management
+To identify # of defects induced due to incorrect/poor configuration management. Define # of defects due to incorrect deployment
 
-CI jobs were stuck due to unavailable GitLab runners matching required tags, and resolved after restoring runner availability.
+Test Management
+Ensure no schedule slippage; meet PLBM benchmarks for test metrics (design productivity, coverage, effort variance, rework %, review efficiency); submit metrics timely; ensure quality deliverables and RCA with corrective actions.
 
-Confluence knowledge base was updated with closed tickets and technical summaries to improve documentation and knowledge sharing.
-
-Missing data in the Legacy Data Warehouse monthly run was corrected using staging-to-published table swaps and validated as accurate.
-
-Dagster alert triggered as a job exceeded the 1-hour runtime threshold by around 36 seconds with no functional impact.
-
-Lambda failure in staging during Snowflake user key rotation was likely due to rate limiting or network policy issues, with recommendation to add retry handling.
-
-User lost access to a Snowflake role due to expiry of temporary access and AAD provisioning revocation, with a new request raised for restoration.
-
-Datadog alert triggered due to a DMS CDC error caused by an unsupported RENAME TABLE operation and initial investigation in the wrong environment.
-
-Pipeline failed due to missing access to SNOWFLAKE.ACCOUNT\_USAGE schema, resolved by granting required permissions via IaC.
-
-Weekly Jira dashboard reporting process was created using JQL filters and CSV exports for trend tracking.
-
-ICMR dashboard data mismatches caused by timing gaps and CDC latency were resolved through data reload and deduplication fixes.
-
-Snowflake connection issue occurred in GitLab pipeline but worked via Lambda, with investigation focused on user configuration and network policies.
-
-Multiple Snowflake access and permission issues were resolved by creating a read-only data platform role and addressing related gaps.
+You have not added any note for this "Key Role Outcome".
