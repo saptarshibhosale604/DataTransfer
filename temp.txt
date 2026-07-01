@@ -1,16 +1,80 @@
 Knowledge Asset & KM Sharing
 Create and maintain knowledge assets and project documentation. Share best practices and lessons learned. Contribute to KM repositories, newsletters, and forums. Mentor team members and ensure KM portals are regularly updated
+Knowledge Asset & KM Sharing
+
+
+Established and enhanced reusable knowledge assets by documenting support processes, onboarding guidance, ticket resolutions, and operational procedures, improving team self-service capability and reducing dependency on subject matter experts. This is evidenced by work on onboarding documentation, documentation improvements, knowledge-base ticket summaries, resolved-ticket documentation, and support process walkthroughs. [[JIRA] | Outlook], [[JIRA] (DD...the ticket | Outlook], [Weekly Con...Transcript | Video]
+
+
+Actively contributed to knowledge-sharing initiatives through Knowledge Connect sessions and DDS support reporting, capturing lessons learned, operational metrics, and best practices to improve team understanding of Data Platform, Snowflake, DMS, Dagster, and support workflows. These activities supported cross-team learning and continuous improvement of DDS support operations.
+
+
+
+
 
 Innovation & Process/Project Initiatives
 Foster innovation by generating and implementing greater than or equal to 3 impactful ideas per quarter, measured by adoption rate, business value delivered, and cross-functional collaboration across teams or client engagements.
+Innovation & Process/Project Initiatives
+
+
+Drove operational efficiency by identifying and implementing process improvements across DDS support, including Jira workflow enhancements, queue management, ticket categorisation, and support reporting capabilities, improving visibility and prioritisation of support activities. [DDS-51 | Word], [Knowledge...Transcript | Video], [Weekly Rep...— 2026-W24 | Confluence]
+
+
+Introduced data-driven support management initiatives by contributing to the design of Jira dashboards, DDS metrics reporting, operational health monitoring, and ticket analytics, enabling improved decision-making and trend identification across support operations. [Knowledge...Transcript | Video], [jira charts | PDF], [Weekly Rep...— 2026-W24 | Confluence]
+
+
+Collaborated with multiple platform, support, and engineering teams to develop innovative solutions for recurring operational challenges, including knowledge-sharing frameworks, onboarding improvements, documentation standardisation, and support process optimisation.
+
+
+
+
+
+
 
 Adherence to Coding Standards
 Ensure 100% adherence to coding standards by writing clean, efficient, and maintainable code. Measured via peer code reviews, static analysis tools, and less than 2 critical violations per quarter . Also perform Code Review Quality
+Adherence to Coding Standards & Code Review Quality
+
+
+Maintained a strong focus on code quality and governance by participating in peer reviews, supporting merge request validation, and ensuring infrastructure and platform changes were reviewed before deployment, helping reduce operational risk and improve maintainability. [INC0205693...migration | Confluence]
+
+
+Applied engineering best practices when implementing Snowflake, infrastructure, and automation-related changes, ensuring solutions were delivered in a consistent, supportable, and operationally sustainable manner across environments. [Data Platf...n Document | Confluence], [INC0205693...migration | Confluence]
+
+
+Promoted continuous improvement through post-mortem reviews, technical discussions, and knowledge-sharing sessions, helping identify quality gaps, improve implementation standards, and strengthen future change reviews. [INC0205693...migration | Confluence], [Knowledge...Recording | Video], [Knowledge...Transcript | Video]
+
+
+
+
+
+
+
+
 
 Configuration/ Deployment Management
 To identify # of defects induced due to incorrect/poor configuration management. Define # of defects due to incorrect deployment
+Configuration / Deployment Management
+
+
+Supported deployment and configuration management activities by identifying, investigating, and resolving environment, access, and infrastructure configuration issues across Snowflake, GitLab, Datadog, AWS DMS, and Data Platform services. [Weekly Rep...— 2026-W24 | Confluence], [[JIRA] | Outlook]
+
+
+Contributed to reducing deployment-related risk by participating in incident investigations, post-mortems, and remediation planning, helping improve configuration controls, deployment processes, and operational governance. [INC0205693...migration | Confluence]
+
+
+Enhanced deployment visibility and operational readiness through support dashboards, operational health monitoring, onboarding documentation, and configuration-related knowledge assets that improved troubleshooting efficiency and issue prevention
+
+
 
 Test Management
 Ensure no schedule slippage; meet PLBM benchmarks for test metrics (design productivity, coverage, effort variance, rework %, review efficiency); submit metrics timely; ensure quality deliverables and RCA with corrective actions.
+Ensured timely completion of DDS support deliverables by proactively managing incidents, service requests, operational tasks, and follow-up actions, helping maintain service commitments and minimise delivery delays. [Weekly Rep...— 2026-W24 | Confluence], [[JIRA] | Outlook], [[JIRA] (DD...the ticket | Outlook]
+
+
+Strengthened quality assurance and operational effectiveness through incident reviews, post-mortems, root cause investigations, and corrective action tracking, contributing to continuous improvement and reduction of recurring issues. [INC0205693...migration | Confluence], [FW: Incide...th AWS DMS | Outlook]
+
+
+Supported data-driven service management by contributing to ticket metrics, operational dashboards, reporting initiatives, and support analytics, enabling better visibility of workload, trends, and service performance.
 
 You have not added any note for this "Key Role Outcome".
