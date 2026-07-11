@@ -23,5 +23,6 @@ zc (close fold):
 
     This command opens all folds in the current buff
 
-
+- list of windows applications
+    - WizTree: https://diskanalyzer.com/download
 
