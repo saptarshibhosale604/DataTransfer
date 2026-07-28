@@ -1,19 +1,33 @@
+* Dagster firds\_schedule failed during the extract step due to a 400 Bad Request response from the FCA FIRDs API. The issue was investigated with the data source/API request and resolved after review by the platform team.
 
-Previewing TicketSummary 3.md
-Summary of Completed Tickets (29 Jun – 3 Jul)
-Data pipeline and Dagster job failures were investigated and resolved after identifying dbt validation failures, SQL compilation issues, and environment configuration problems affecting scheduled workflows. Pipeline stability was restored following corrective actions and validation testing.
+* Guidance was provided on data classification for DataHubs landing tables containing sensitive data in a Snowflake VARIANT column. The query clarified where classification and masking should be applied within the landing and transform layers.
 
-Monitoring and alerting processes were reviewed and improved, including investigation of reconciliation dashboard alerts and Snowpipe ingestion failures caused by invalid parquet files. Appropriate monitoring ownership and ongoing tracking were established.
+* Investigation of DBO & SOC channel alerts identified Snowflake login failures caused by a public key mismatch following credential rotation for the SU\_C\_SPIDERMAIL\_STREAM\_DEV service user. The key was updated and the authentication alerts were resolved.
 
-Snowflake platform access issues were addressed by reviewing missing role permissions and defining the correct access request process for users requiring access to restricted schemas and datasets.
+* Dagster firds job triggered an alert after exceeding the 1-hour runtime threshold. The issue was transient, and subsequent pipeline runs completed successfully without further intervention.
 
-A temporary AWS Lambda failure caused by a Snowflake connectivity issue was investigated and confirmed as a transient platform issue, with subsequent executions completing successfully.
+* Access review was conducted to identify which AWS role could execute Lambda functions in the DEV environment. Investigation confirmed that the required permissions were available through the admin role.
 
-User-reported Sigma reporting issues involving report exports, masked data visibility, and access restrictions were investigated, with ownership and permission-related actions routed to the relevant teams.
+* Developed a Jira dashboard to track DDS support metrics, categorising tickets by source (alerts, channels, emails, user requests) and technology area (Snowflake, Lambda, Jira, GitLab, etc.). This improved reporting and visibility of support workload trends.
 
-GitLab repository permission and approval workflow issues were resolved through updates to repository ownership, access controls, and approval configurations.
+* Initial DDS planning and coordination ticket used to track onboarding tasks, documentation improvements, support processes, dashboard refinements, and team action items. Served as a central workspace for establishing DDS operational practices.
 
-Platform support capabilities were enhanced through the implementation of a new Snowflake support role, including required role grants, provisioning updates, and supporting documentation.
+* Created a framework for grouping and tracking Dagster issues by project, asset, error type, Jira ticket, and responsible developer. This improved incident analysis, ownership tracking, and recurring issue identification.
 
-
-Your changes are being autosaved.
+* Investigated a Snowflake Trust Centre security violation related to network policy coverage in the InfraDev environment. Required network policy updates were implemented via infrastructure changes, ensuring GitLab runners and service accounts remained compliant with access restrictions.
+
+* Suppressed a recurring Datadog alert for the known and non-impactful warning: "Value of column 'action\_notes' in table 'crmlog' was truncated". Monitoring queries were updated and validated, reducing alert noise while maintaining meaningful DMS error monitoring.
+
+* Added DDS-specific validation checks into the Snowflake infrastructure validation process. Changes were implemented and successfully verified through the associated GitLab pipeline.
+
+* Dagster legacy\_reports\_daily run failed because dbt tests on `id_1235_helpdesk_transfer_and_consult_summary` exceeded the Snowflake warehouse timeout limit of 3600 seconds. The issue was investigated, assigned to the product team, and resolved.
+
+* Dagster asset health alert was triggered due to failed uniqueness checks on the `id_1163_estates_extract_data` model, indicating duplicate data records. The issue was investigated with the owning team and resolved.
+
+* Lambda secret rotation failed for service user `SU_C_OUTCOMES_FRAMEWORK_DM` because the required AWS Secrets Manager secret could not be found. The issue was reviewed and later auto-resolved without further intervention.
+
+* Production `rotate_service_users_lambda` failed while rotating credentials for `ML_DATA_MODEL` due to an invalid `ClientRequestToken` length. The issue was escalated, investigated, and subsequently auto-resolved.
+
+* Dagster run for the Engagement Data Transforms project failed due to insufficient Snowflake privileges to create the `PUBLISHED.DIGITAL_JOURNEY` schema. The issue was redirected to the responsible product team through a dedicated Jira request.
+
+* User was unable to query Snowflake PUBLISHED objects despite recently granted access. Investigation identified an incorrect role assignment, and the request was returned to ServiceNow for the appropriate access grant to be applied.
