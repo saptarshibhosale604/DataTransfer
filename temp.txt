@@ -1,33 +1,19 @@
-* Dagster firds\_schedule failed during the extract step due to a 400 Bad Request response from the FCA FIRDs API. The issue was investigated with the data source/API request and resolved after review by the platform team.
+Datadog DMS alerts were generating false positives for the known and unsupported "Rename Table DDL" scenario. The monitoring query was updated to explicitly suppress these warnings, and validation confirmed the alerts no longer triggered.
 
-* Guidance was provided on data classification for DataHubs landing tables containing sensitive data in a Snowflake VARIANT column. The query clarified where classification and masking should be applied within the landing and transform layers.
+Investigated Snowflake login failures for the SU_C_SPIDERMAIL_STREAM_DEV user linked to Firehose integration. Root cause was identified as a secret synchronization issue following credential rotation, and the sync process was reviewed and documented.
 
-* Investigation of DBO & SOC channel alerts identified Snowflake login failures caused by a public key mismatch following credential rotation for the SU\_C\_SPIDERMAIL\_STREAM\_DEV service user. The key was updated and the authentication alerts were resolved.
+Reviewed and tracked the removal of an obsolete RECs task referencing the unused APRD table in TRANSFORM_RECONCILIATION. The cleanup had already been completed by the owning team.
 
-* Dagster firds job triggered an alert after exceeding the 1-hour runtime threshold. The issue was transient, and subsequent pipeline runs completed successfully without further intervention.
+Improved DMS latency monitoring by restoring recovery notifications in Teams when Datadog alerts return to normal. Changes were tested successfully and documented in the knowledge base.
 
-* Access review was conducted to identify which AWS role could execute Lambda functions in the DEV environment. Investigation confirmed that the required permissions were available through the admin role.
+Dagster sensor failures were caused by invalid cached Snowflake JWT credentials used by ingestion sensors. Reloading the code location refreshed credentials and returned all sensors to a healthy state.
 
-* Developed a Jira dashboard to track DDS support metrics, categorising tickets by source (alerts, channels, emails, user requests) and technology area (Snowflake, Lambda, Jira, GitLab, etc.). This improved reporting and visibility of support workload trends.
+AWS account access was requested and provisioned for Kiran Padole through the tenant-ops process. A merge request was raised, approved, and completed successfully.
 
-* Initial DDS planning and coordination ticket used to track onboarding tasks, documentation improvements, support processes, dashboard refinements, and team action items. Served as a central workspace for establishing DDS operational practices.
+Enabled Snowflake Trust Center access for the Data Platform Support role by granting the required TRUST_CENTER_VIEWER application role. Infrastructure changes were deployed and validated across environments.
 
-* Created a framework for grouping and tracking Dagster issues by project, asset, error type, Jira ticket, and responsible developer. This improved incident analysis, ownership tracking, and recurring issue identification.
+Investigated missing DMS latency recovery notifications in Teams despite Datadog generating recovery events. Alert configuration was updated and tested to ensure recovery messages were delivered correctly.
 
-* Investigated a Snowflake Trust Centre security violation related to network policy coverage in the InfraDev environment. Required network policy updates were implemented via infrastructure changes, ensuring GitLab runners and service accounts remained compliant with access restrictions.
+Investigated recurring rotate_service_users_lambda failures across environments caused by missing AWS Secrets Manager secrets for SU_C_OUTCOMES_FRAMEWORK_DM. The issue self-healed after secret synchronization and the alerts were resolved.
 
-* Suppressed a recurring Datadog alert for the known and non-impactful warning: "Value of column 'action\_notes' in table 'crmlog' was truncated". Monitoring queries were updated and validated, reducing alert noise while maintaining meaningful DMS error monitoring.
-
-* Added DDS-specific validation checks into the Snowflake infrastructure validation process. Changes were implemented and successfully verified through the associated GitLab pipeline.
-
-* Dagster legacy\_reports\_daily run failed because dbt tests on `id_1235_helpdesk_transfer_and_consult_summary` exceeded the Snowflake warehouse timeout limit of 3600 seconds. The issue was investigated, assigned to the product team, and resolved.
-
-* Dagster asset health alert was triggered due to failed uniqueness checks on the `id_1163_estates_extract_data` model, indicating duplicate data records. The issue was investigated with the owning team and resolved.
-
-* Lambda secret rotation failed for service user `SU_C_OUTCOMES_FRAMEWORK_DM` because the required AWS Secrets Manager secret could not be found. The issue was reviewed and later auto-resolved without further intervention.
-
-* Production `rotate_service_users_lambda` failed while rotating credentials for `ML_DATA_MODEL` due to an invalid `ClientRequestToken` length. The issue was escalated, investigated, and subsequently auto-resolved.
-
-* Dagster run for the Engagement Data Transforms project failed due to insufficient Snowflake privileges to create the `PUBLISHED.DIGITAL_JOURNEY` schema. The issue was redirected to the responsible product team through a dedicated Jira request.
-
-* User was unable to query Snowflake PUBLISHED objects despite recently granted access. Investigation identified an incorrect role assignment, and the request was returned to ServiceNow for the appropriate access grant to be applied.
+Conducted a review of critical service runbooks and support documentation to identify coverage gaps across data platform services. Work was consolidated into an existing documentation initiative and linked to the relevant DDP tracking ticket.
