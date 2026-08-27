@@ -1,19 +1,7 @@
-Datadog DMS alerts were generating false positives for the known and unsupported "Rename Table DDL" scenario. The monitoring query was updated to explicitly suppress these warnings, and validation confirmed the alerts no longer triggered.
+DDS-196 - Reviewed the proposed approach for Snowflake metadata visibility role creation. Assessed replacing the existing REFERENCE_DATA_HL_DATA_MODEL role with a dedicated HL_REFERENCE_DATA role and granting access through the SR_ALL_REFERENCES_PUBLISHED database role while ensuring masking policies and published-only access requirements are maintained.
 
-Investigated Snowflake login failures for the SU_C_SPIDERMAIL_STREAM_DEV user linked to Firehose integration. Root cause was identified as a secret synchronization issue following credential rotation, and the sync process was reviewed and documented.
+DDS-194 - Investigated masking policy role setup for additional business domains. Reviewed Terraform and Snowflake role dependencies, identified that MASKING_POLICY_IDENTIFIABLE_GRC must be created manually in Snowflake, and validated the required classification tag values and deployment steps for infra-dev.
 
-Reviewed and tracked the removal of an obsolete RECs task referencing the unused APRD table in TRANSFORM_RECONCILIATION. The cleanup had already been completed by the owning team.
+DDP-3020 - Confirmed implementation of the requested Snowflake database access changes and validated that the SR_C_AI_DM service role now has access to the required datasets. Communicated completion to the requester for verification.
 
-Improved DMS latency monitoring by restoring recovery notifications in Teams when Datadog alerts return to normal. Changes were tested successfully and documented in the knowledge base.
-
-Dagster sensor failures were caused by invalid cached Snowflake JWT credentials used by ingestion sensors. Reloading the code location refreshed credentials and returned all sensors to a healthy state.
-
-AWS account access was requested and provisioned for Kiran Padole through the tenant-ops process. A merge request was raised, approved, and completed successfully.
-
-Enabled Snowflake Trust Center access for the Data Platform Support role by granting the required TRUST_CENTER_VIEWER application role. Infrastructure changes were deployed and validated across environments.
-
-Investigated missing DMS latency recovery notifications in Teams despite Datadog generating recovery events. Alert configuration was updated and tested to ensure recovery messages were delivered correctly.
-
-Investigated recurring rotate_service_users_lambda failures across environments caused by missing AWS Secrets Manager secrets for SU_C_OUTCOMES_FRAMEWORK_DM. The issue self-healed after secret synchronization and the alerts were resolved.
-
-Conducted a review of critical service runbooks and support documentation to identify coverage gaps across data platform services. Work was consolidated into an existing documentation initiative and linked to the relevant DDP tracking ticket.
+DDP-3161 - Updated Sigma user account mapping by correcting email address associations and ensuring the active account retains Build licence access. Requested user confirmation that dashboard update permissions are now working as expected.
