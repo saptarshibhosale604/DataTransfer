@@ -1,7 +1,18 @@
-DDS-196 - Reviewed the proposed approach for Snowflake metadata visibility role creation. Assessed replacing the existing REFERENCE_DATA_HL_DATA_MODEL role with a dedicated HL_REFERENCE_DATA role and granting access through the SR_ALL_REFERENCES_PUBLISHED database role while ensuring masking policies and published-only access requirements are maintained.
+Deliverables (Key deliverables agreed mutually between associate, HM and BM as applicable)
 
-DDS-194 - Investigated masking policy role setup for additional business domains. Reviewed Terraform and Snowflake role dependencies, identified that MASKING_POLICY_IDENTIFIABLE_GRC must be created manually in Snowflake, and validated the required classification tag values and deployment steps for infra-dev.
+You can use the following text in the form:
 
-DDP-3020 - Confirmed implementation of the requested Snowflake database access changes and validated that the SR_C_AI_DM service role now has access to the required datasets. Communicated completion to the requester for verification.
+Deliverable Title*
+ Develop and Deploy Automated Performance Reporting Dashboard
 
-DDP-3161 - Updated Sigma user account mapping by correcting email address associations and ensuring the active account retains Build licence access. Requested user confirmation that dashboard update permissions are now working as expected.
+Deliverable Description
+ Design, develop, and deploy an automated dashboard that consolidates project performance metrics, effort tracking, defect analysis, and delivery status. Ensure accurate data integration, periodic updates, and user-friendly visualization for stakeholders.
+
+Measurement Criteria*
+ Dashboard deployed successfully with 100% data accuracy and monthly stakeholder adoption.
+
+Expected Completion Date*
+ 31-Dec-2026
+
+Status*
+ Not Started
