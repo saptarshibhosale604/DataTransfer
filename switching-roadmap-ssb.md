@@ -1,4 +1,4 @@
-# Current Role Inventory
+7# Current Role Inventory
 
 ## A. Technologies
 
@@ -363,3 +363,530 @@ Focus your experience on measurable engineering outcomes:
 - Improved monitoring, incident response and platform reliability using Datadog and Grafana.
 - Automated operational and reporting activities using Python, SQL and shell scripting.
 - Performed root-cause analysis, query investigation and platform performance troubleshooting.
+
+
+
+
+
+
+
+
+
+
+
+# Job Switching Strategy
+
+## 1. Multiple Job Sources
+
+| Source | What it is | Priority | Best use |
+|---|---|---:|---|
+| Employee referrals | Someone inside the company refers you | ⭐⭐⭐⭐⭐ | Highest-value applications |
+| Company career pages | Direct applications to companies | ⭐⭐⭐⭐⭐ | Target companies |
+| LinkedIn | Jobs + networking + recruiters | ⭐⭐⭐⭐⭐ | Jobs + visibility + networking |
+| Naukri | Large Indian job database | ⭐⭐⭐⭐⭐ | High-volume India applications |
+| Recruiters / Headhunters | Recruiters contacting candidates | ⭐⭐⭐⭐ | Passive opportunities |
+| Professional network | Former colleagues, managers, friends, alumni | ⭐⭐⭐⭐⭐ | Referrals + hidden jobs |
+| Indeed | Job aggregation/search | ⭐⭐⭐ | Additional job discovery |
+| Job communities | WhatsApp/Telegram/Discord/Slack groups, communities | ⭐⭐⭐ | Niche opportunities |
+| Company employees | Directly contacting employees | ⭐⭐⭐⭐⭐ | Turning cold applications into warm ones |
+| Staffing/consulting firms | Third-party recruitment companies | ⭐⭐⭐ | Contract/permanent opportunities |
+| Meetups/conferences | In-person professional connections | ⭐⭐⭐ | Long-term networking |
+| College/alumni network | Alumni working in companies | ⭐⭐⭐⭐ | Referrals and introductions |
+
+### Three levels of access
+
+**Level 1 — Cold application**
+
+> You → Job portal → ATS → Recruiter
+
+Examples: Naukri, LinkedIn, Indeed, company website.
+
+**Level 2 — Recruiter access**
+
+> You → Recruiter → Hiring company
+
+Examples: recruiter messages, agency recruiters, LinkedIn recruiters.
+
+**Level 3 — Warm introduction**
+
+> You → Employee → Referral → Hiring team
+
+Examples: employee referral, former colleague, manager, professional network.
+
+**Level 3 is generally the strongest.**
+
+---
+
+# 2. Best Strategy for Applying
+
+Don't use:
+
+> "Apply to 100 jobs every day."
+
+Instead, use a **funnel strategy**.
+
+```text
+                    JOB MARKET
+                        │
+          ┌─────────────┼─────────────┐
+          ↓             ↓             ↓
+       Naukri        LinkedIn      Company
+                                  Career Pages
+          │             │             │
+          └─────────────┼─────────────┘
+                        ↓
+                 Find suitable jobs
+                        │
+              ┌─────────┴─────────┐
+              ↓                   ↓
+         Cold Apply          Find employee
+                                  │
+                             Ask for referral
+                                  │
+              └─────────┬─────────┘
+                        ↓
+                   Application
+                        ↓
+                  Recruiter screen
+                        ↓
+                    Interviews
+                        ↓
+                     Offer
+```
+
+## Recommended effort split
+
+| Activity | % of effort |
+|---|---:|
+| Employee referrals / networking | **30%** |
+| Targeted applications | **30%** |
+| Naukri + LinkedIn applications | **25%** |
+| Recruiters | **10%** |
+| Other sources | **5%** |
+
+The biggest mistake is spending **90% of your time clicking Apply**.
+
+---
+
+# 3. Build a Target-Company List First
+
+Create a list of **30–50 companies**.
+
+### Tier A — Dream companies
+
+10–15 companies where you'd genuinely want to work.
+
+### Tier B — Strong targets
+
+15–20 companies with good salary, technology, career growth, location, etc.
+
+### Tier C — Backup
+
+10–20 companies where you'd still accept a good offer.
+
+Then monitor these companies regularly.
+
+---
+
+# 4. Don't Apply to Every Job
+
+Before applying, ask:
+
+### Job-fit checklist
+
+1. **Experience** — Do I meet the required experience?
+2. **Core skills** — Do I have most of the important technologies?
+3. **Role** — Is this actually the kind of work I want?
+4. **Location** — Is the location/remote arrangement acceptable?
+5. **Salary** — Is the likely compensation worth switching for?
+6. **Career direction** — Does this move me toward the career I want?
+
+If you meet roughly **60–70%+ of the important requirements**, applying can make sense.
+
+You don't need 100%.
+
+---
+
+# 5. LinkedIn Strategy
+
+Don't use LinkedIn only as a job board.
+
+Use it for:
+
+**Jobs + recruiters + employees + networking.**
+
+For a company you're interested in:
+
+1. Find the job.
+2. Apply.
+3. Search LinkedIn for employees in that company.
+4. Find people working in the relevant team.
+5. Contact one or two appropriate people.
+6. Ask politely whether they would be comfortable referring you.
+
+That's much better than:
+
+> Apply → forget.
+
+---
+
+# 6. Naukri Strategy
+
+Naukri is particularly important for the Indian market.
+
+Keep your profile **very up-to-date**.
+
+Pay attention to:
+
+- Resume
+- Headline
+- Skills
+- Current designation
+- Experience
+- Notice period
+- Expected salary
+- Preferred locations
+- Profile activity
+
+Recruiters often search the database rather than waiting for you to apply.
+
+Your objective is:
+
+> **Make your Naukri profile searchable.**
+
+---
+
+# 7. Company Career Pages
+
+For your **Tier A companies**, don't rely only on LinkedIn/Naukri.
+
+Check their career pages directly.
+
+Example:
+
+```text
+Company A
+Company B
+Company C
+...
+Company 30
+```
+
+Maintain a spreadsheet:
+
+| Company | Careers page | Relevant role | Applied | Referral | Status |
+|---|---|---|---|---|---|
+| A | ✓ | Support Engineer | ✓ | ✓ | Interview |
+| B | ✓ | SRE | ✓ | — | Applied |
+| C | ✓ | Cloud Engineer | — | — | Waiting |
+
+This prevents you from losing track.
+
+---
+
+# 8. Referral Strategy
+
+Referrals are one of the most powerful channels.
+
+Don't spam strangers with:
+
+> "Hi, please refer me."
+
+Instead, give them enough information to make referring you easy.
+
+Example:
+
+> Hi, I noticed your company is hiring for [Role]. My experience in [X, Y, Z] seems closely aligned with the position. I've applied for the role and would really appreciate a referral if you feel my profile is suitable.
+
+Even better if you have a genuine connection:
+
+- Former colleague
+- College alumni
+- Previous teammate
+- Friend
+- Professional contact
+
+---
+
+# 9. Recruiter Strategy
+
+Recruiters can bring opportunities **before you find them yourself**.
+
+When a recruiter contacts you, ask:
+
+- Company?
+- Role?
+- Location?
+- Work model?
+- Job responsibilities?
+- Required skills?
+- Experience requirement?
+- Salary range?
+- Employment type?
+- Notice-period requirement?
+
+Verify the recruiter/company before sharing sensitive information.
+
+---
+
+# 10. Professional Networking
+
+This doesn't mean:
+
+> "Add 500 random LinkedIn connections."
+
+Build relationships with people relevant to your career.
+
+```text
+Current colleagues
+        ↓
+Former colleagues
+        ↓
+Managers
+        ↓
+People in target companies
+        ↓
+Recruiters
+        ↓
+People in your technology/domain
+```
+
+Over time, this creates a **career network**.
+
+The best time to build a network is actually **before you need a job**.
+
+---
+
+# 11. Ideal Application Workflow
+
+For a particularly good job:
+
+### Step 1
+Find the job.
+
+### Step 2
+Check the requirements.
+
+### Step 3
+Customize your resume if necessary.
+
+### Step 4
+Apply through the official channel.
+
+### Step 5
+Search for relevant employees.
+
+### Step 6
+Ask for referral/introduction.
+
+### Step 7
+Contact recruiter if appropriate.
+
+### Step 8
+Track the application.
+
+One job can therefore become:
+
+```text
+Job posting
+    ↓
+Resume customization
+    ↓
+Official application
+    ↓
+Employee referral
+    ↓
+Recruiter contact
+    ↓
+Interview
+```
+
+You're creating **multiple paths to the same opportunity**.
+
+---
+
+# 12. How Many Applications?
+
+Prefer:
+
+### 10–15 high-quality applications/day
+
+over:
+
+### 100 random applications/day.
+
+Example daily routine:
+
+- 5–7 highly relevant applications
+- 3–5 referral/networking attempts
+- 3–5 recruiter/networking interactions
+- 30–60 min interview preparation
+- 15–30 min skill improvement
+
+This gives you:
+
+**Short-term job search + long-term career improvement.**
+
+---
+
+# 13. Do's
+
+### ✅ Do
+
+- Keep one **master resume**.
+- Create role-specific versions.
+- Keep LinkedIn updated.
+- Keep Naukri updated.
+- Apply through official company websites when possible.
+- Ask for referrals.
+- Build relationships before asking for favors.
+- Track every application.
+- Read the JD carefully.
+- Research the company before interviews.
+- Prepare for interviews even while applying.
+- Follow up professionally.
+- Keep applying even after getting an interview.
+- Continue interviewing until you have an offer you are happy with.
+- Quantify achievements where possible.
+
+Instead of:
+
+> "Provided technical support."
+
+Prefer something like:
+
+> "Supported X applications/users and resolved production issues while maintaining Y% SLA compliance."
+
+---
+
+# 14. Don'ts
+
+### ❌ Don't
+
+**Don't mass-apply blindly.**
+
+100 applications with terrible job fit can be worse than 20 good ones.
+
+**Don't use exactly the same resume for every role.**
+
+A Support Engineer, DevOps Engineer and Data Engineer should not necessarily have identical resumes.
+
+**Don't lie about skills.**
+
+If you put something on your resume, expect interview questions about it.
+
+**Don't stop applying after one interview.**
+
+Until you have a signed/confirmed offer, your job search is still active.
+
+**Don't apply repeatedly to the same job.**
+
+Especially multiple times through different portals.
+
+**Don't spam employees.**
+
+One good referral request is better than 20 identical messages.
+
+**Don't contact 10 employees from the same team simultaneously.**
+
+It can look desperate/spammy.
+
+**Don't ignore your notice period.**
+
+Recruiters care about availability.
+
+**Don't make your resume unnecessarily long.**
+
+For most candidates, concise and targeted is better.
+
+**Don't spend all your time applying.**
+
+Interview preparation is equally important.
+
+---
+
+# 15. The Biggest Mistake
+
+A lot of people think job searching is:
+
+> **Find job → Apply → Wait**
+
+A better approach is:
+
+> **Find → Evaluate → Tailor → Apply → Network → Referral → Follow up → Interview → Continue searching**
+
+Think of every application as a **sales funnel**.
+
+```text
+100 suitable jobs discovered
+          ↓
+60 applications
+          ↓
+20 recruiter responses
+          ↓
+10 interviews
+          ↓
+3–5 final rounds
+          ↓
+1–2 offers
+```
+
+The exact numbers vary significantly by role, experience, market and resume quality. The important concept is the **funnel**.
+
+---
+
+# 16. Recommended Job-Switching System
+
+## Weekly job sources
+
+### Primary
+
+1. Naukri
+2. LinkedIn
+3. Company career pages
+4. Referrals
+5. Recruiters
+
+### Secondary
+
+6. Indeed
+7. Professional communities
+8. Alumni network
+9. Staffing companies
+10. Industry events
+
+## Daily routine
+
+```text
+30 min  → Find new jobs
+30 min  → Apply
+30 min  → Referral/networking
+30 min  → Interview preparation
+30 min  → Technical skill improvement
+```
+
+## Application tracker
+
+```text
+Job
+Company
+Role
+Source
+Date found
+Date applied
+Resume version
+Referral?
+Recruiter?
+Status
+Interview date
+Result
+Salary
+Notice period
+Notes
+```
+
+---
+
+# Core Principle
+
+> **Don't try to maximize the number of applications. Maximize the number of high-quality opportunities reaching the interview stage.**
