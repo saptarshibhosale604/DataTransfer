@@ -1,18 +1,116 @@
-Deliverables (Key deliverables agreed mutually between associate, HM and BM as applicable)
 
-You can use the following text in the form:
+- tag conflict and masking policy behavior
+- grafana, cloudwatch metrics for aws/dms namespace
+    - visible in prod 
+    - but not in dev
+    - grafana descripancy
 
-Deliverable Title*
- Develop and Deploy Automated Performance Reporting Dashboard
+- play multiple solutions for adding business domain based maksing policies
+
+- Reviewed and finalized the design for conflict-based policy tag propagation across table and view lineage.
+- Defined metadata changes, including additional source-type tracking (View vs Table) in COLUMN_TAGS_METADATA.
+- Designed the stored procedure workflow to identify parent columns, retrieve inherited tags, and generate combined tags for conflict scenarios.
+- Documented the end-to-end approach for applying combined tags dynamically and maintaining audit/logging for validation and troubleshooting.
+
+Based on your current work across Snowflake governance & masking policies, AWS DMS monitoring, Grafana alerting, Terraform automation, platform operations, incident management, and support engineering, I have drafted 8 deliverables in the same format. These align closely with the initiatives and discussions found in your recent work.
+
+01 Deliverable Title*
+
+Implement Enterprise Data Classification and Masking Framework
 
 Deliverable Description
- Design, develop, and deploy an automated dashboard that consolidates project performance metrics, effort tracking, defect analysis, and delivery status. Ensure accurate data integration, periodic updates, and user-friendly visualization for stakeholders.
+
+Design, implement, and enhance Snowflake data classification, tagging, and masking policy frameworks to ensure sensitive and identifiable data is protected across all environments and all business domains. Support governance requirements through automated tag propagation, policy management, and role-based access controls.
 
 Measurement Criteria*
- Dashboard deployed successfully with 100% data accuracy and monthly stakeholder adoption.
+
+100% implementation of approved masking policies for targeted datasets with successful validation and compliance sign-off.
 
 Expected Completion Date*
- 31-Dec-2026
+
+31-Dec-2026
 
 Status*
- Not Started
+
+Not Started
+
+02 Deliverable Title*
+
+Establish AWS DMS Monitoring and Operational Dashboard
+
+Deliverable Description
+
+Design, build, and deploy Grafana dashboards providing operational visibility of AWS DMS replication tasks across development, staging, and production environments. Include task health, CDC latency, replication status, and performance metrics.
+
+Measurement Criteria*
+
+Dashboard deployed successfully with monitoring coverage for all critical DMS tasks.
+
+Expected Completion Date*
+
+31-Dec-2026
+
+Status*
+
+Not Started
+
+03 Deliverable Title*
+
+Improve Platform Reliability Through Incident Reduction Initiatives
+
+Deliverable Description
+
+Lead investigation and resolution of recurring platform incidents, including DMS failures, Snowpipe issues, Dagster failures, and Snowflake operational alerts. Identify root causes and implement preventative improvements.
+
+Measurement Criteria*
+
+Demonstrable reduction in recurring incidents and improved service stability for supported platform components.
+
+Expected Completion Date*
+
+31-Dec-2026
+
+Status*
+
+Not Started
+
+04 Deliverable Title*
+
+Strengthen Knowledge Management and Technical Documentation
+
+Deliverable Description
+
+Create and maintain technical documentation, operational runbooks, architectural diagrams, monitoring standards, and knowledge-sharing materials covering Snowflake governance, AWS DMS operations, Grafana monitoring, and platform support processes.
+
+Measurement Criteria*
+
+Completion and publication of agreed knowledge assets with positive feedback from team members and successful handover/support readiness.
+
+Expected Completion Date*
+
+31-Dec-2026
+
+Status*
+
+Not Started
+
+
+05 Deliverable Title*
+
+Develop L2 Support Troubleshooting and Automation Portal
+
+Deliverable Description
+
+Design, develop, and deploy Streamlit-based self-service applications to assist L2 support teams with advanced troubleshooting, operational diagnostics, metadata analysis, incident investigation, and platform health checks across Snowflake, AWS DMS, DBT, and related data platform services. Incorporate automation capabilities to reduce manual investigation effort and improve support efficiency.
+
+Measurement Criteria*
+
+Deploy at least one production-ready Streamlit application that reduces manual troubleshooting effort, improves incident resolution efficiency, and is adopted by L2/L3 support teams for day-to-day operational activities.
+
+Expected Completion Date*
+
+31-Dec-2026
+
+Status*
+
+Not Started
