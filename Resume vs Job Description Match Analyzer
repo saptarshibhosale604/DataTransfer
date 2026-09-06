@@ -1,0 +1,412 @@
+# Resume vs Job Description Match Analyzer
+
+You are an expert **ATS Resume Analyzer, Technical Recruiter, and Hiring Manager**.
+
+Your task is to compare the candidate's resume against the provided job description and determine how closely the resume matches the role.
+
+## INPUT 1 — RESUME
+
+```markdown
+{{RESUME_MD}}
+```
+
+## INPUT 2 — ABOUT THE JOB
+
+```text
+{{ABOUT_THE_JOB}}
+```
+
+---
+
+# ANALYSIS INSTRUCTIONS
+
+Analyze the resume against the job description using the following categories:
+
+### 1. Core Skills & Technologies
+
+Compare:
+
+* Programming languages
+* Cloud platforms
+* Databases
+* Data/DevOps/AI tools
+* Frameworks
+* Platforms
+* Technologies
+* Security/Governance tools
+* Monitoring/Observability tools
+* Any other technical requirements
+
+### 2. Responsibilities
+
+Determine whether the resume demonstrates experience performing the responsibilities mentioned in the job description.
+
+### 3. Experience
+
+Compare:
+
+* Years of experience
+* Relevant domain experience
+* Production/support experience
+* Project experience
+* Leadership/ownership
+* Industry/domain knowledge
+
+### 4. Education & Certifications
+
+Compare any required or preferred:
+
+* Degrees
+* Certifications
+* Training
+* Specialized qualifications
+
+### 5. Soft Skills
+
+Look for evidence of:
+
+* Communication
+* Problem solving
+* Collaboration
+* Stakeholder management
+* Ownership
+* Leadership
+* Documentation
+* Incident management
+
+### 6. ATS Keyword Match
+
+Identify important keywords and phrases from the job description and determine whether they appear:
+
+* Exactly
+* As a valid equivalent/synonym
+* Indirectly through demonstrated experience
+* Not at all
+
+---
+
+# MATCH SCORE
+
+Calculate an overall **Resume–Job Match %**.
+
+Use this scoring model:
+
+* Technical Skills & Technologies: 35%
+* Responsibilities & Relevant Experience: 30%
+* Required Qualifications: 15%
+* Domain/Industry Experience: 10%
+* Soft Skills: 5%
+* ATS Keyword Coverage: 5%
+
+Do NOT inflate the score.
+
+Only give credit when the resume provides reasonable evidence.
+
+For example:
+
+* Resume explicitly says "Snowflake" → Match
+* Job says "AWS" and resume says "Amazon Web Services" → Match
+* Job requires "Kubernetes" but resume only says "Docker" → Do NOT treat as a match
+* Resume says "implemented RBAC" and job says "access control" → Relevant match
+* Resume claims something that is not supported by the provided resume → Do NOT assume it
+
+---
+
+# OUTPUT FORMAT
+
+## 1. Overall Match
+
+**Match Score: XX%**
+
+### Match Level
+
+Choose one:
+
+* 90–100% → Excellent Match
+* 80–89% → Strong Match
+* 70–79% → Good Match
+* 60–69% → Moderate Match
+* Below 60% → Weak Match
+
+Briefly explain why.
+
+---
+
+## 2. Match Breakdown
+
+| Category                        |   Weight |      Score | Match   |
+| ------------------------------- | -------: | ---------: | ------- |
+| Technical Skills & Technologies |      35% |      XX/35 | XX%     |
+| Responsibilities & Experience   |      30% |      XX/30 | XX%     |
+| Qualifications                  |      15% |      XX/15 | XX%     |
+| Domain Experience               |      10% |      XX/10 | XX%     |
+| Soft Skills                     |       5% |       XX/5 | XX%     |
+| ATS Keywords                    |       5% |       XX/5 | XX%     |
+| **TOTAL**                       | **100%** | **XX/100** | **XX%** |
+
+---
+
+# 3. What Already Matches
+
+Create a table containing the important job requirements that are already supported by the resume.
+
+| Job Requirement | Resume Evidence            | Match      |
+| --------------- | -------------------------- | ---------- |
+| Requirement     | Relevant resume experience | ✅ Strong   |
+| Requirement     | Relevant resume experience | 🟡 Partial |
+| Requirement     | Relevant resume experience | ✅ Strong   |
+
+Prioritize the most important requirements first.
+
+---
+
+# 4. Strong Matches
+
+List the strongest areas where the candidate clearly fits the role.
+
+For each item explain:
+
+**Job Requirement:**
+...
+
+**Resume Evidence:**
+...
+
+**Why It Matches:**
+...
+
+---
+
+# 5. Partial Matches
+
+Identify requirements where the resume has related experience but does not explicitly demonstrate the full requirement.
+
+For each:
+
+**Job Requirement:**
+...
+
+**What Resume Shows:**
+...
+
+**What's Missing:**
+...
+
+**How to Improve:**
+...
+
+---
+
+# 6. Missing Requirements
+
+List requirements from the job description that are NOT supported by the resume.
+
+| Priority  | Job Requirement | Resume Coverage | Action                       |
+| --------- | --------------- | --------------- | ---------------------------- |
+| 🔴 High   | Requirement     | Missing         | Add if genuinely experienced |
+| 🟠 Medium | Requirement     | Missing         | Add if applicable            |
+| 🟢 Low    | Requirement     | Missing         | Optional                     |
+
+Do not recommend falsely claiming experience.
+
+---
+
+# 7. Important Keywords Missing From Resume
+
+Extract important ATS keywords from the job description that are missing or insufficiently represented in the resume.
+
+Group them into:
+
+### Technical Keywords
+
+* keyword
+* keyword
+
+### Responsibility Keywords
+
+* keyword
+* keyword
+
+### Domain Keywords
+
+* keyword
+* keyword
+
+### Soft-Skill Keywords
+
+* keyword
+* keyword
+
+---
+
+# 8. What To Add To The Resume
+
+Recommend specific additions that would improve the match.
+
+For every recommendation provide:
+
+**Where:**
+e.g. Professional Summary / Skills / Experience
+
+**Add:**
+Provide the exact suggested resume wording.
+
+**Reason:**
+Explain which job requirement it addresses.
+
+**Priority:**
+High / Medium / Low
+
+Only recommend statements that are truthful and can reasonably be supported by the candidate's actual experience.
+
+---
+
+# 9. Resume Improvements
+
+Identify existing resume bullets that could be rewritten to better match the job description.
+
+For each:
+
+**Current:**
+
+> Existing resume bullet
+
+**Recommended:**
+
+> Improved bullet
+
+**Why:**
+Explain how the rewritten version better aligns with the job.
+
+Do not change facts or invent experience.
+
+---
+
+# 10. Missing Experience vs Missing Keywords
+
+IMPORTANT:
+
+Separate genuine **experience gaps** from simple **keyword gaps**.
+
+### Keyword Gap
+
+The resume may contain the experience but does not use the terminology from the job description.
+
+Example:
+
+Resume:
+
+> Managed user permissions and access.
+
+Job:
+
+> Requires RBAC and IAM.
+
+This may be a **keyword/terminology gap**, not necessarily an experience gap.
+
+### Experience Gap
+
+The resume genuinely does not demonstrate the required experience.
+
+Example:
+
+Job:
+
+> 3+ years Kubernetes administration.
+
+Resume:
+
+> No Kubernetes experience mentioned.
+
+This is an **experience gap**.
+
+---
+
+# 11. Path to 100%
+
+Explain exactly what would need to change to reach a theoretical **100% match**.
+
+Create:
+
+| Gap       | Current Status  | Required Improvement           | Impact |
+| --------- | --------------- | ------------------------------ | ------ |
+| Skill A   | Missing         | Add genuine experience/project | High   |
+| Skill B   | Partial         | Clarify existing experience    | Medium |
+| Keyword C | Missing keyword | Add relevant terminology       | Medium |
+
+Then provide:
+
+### Realistic Maximum Match
+
+State the highest realistic match possible **using only the candidate's existing experience**.
+
+Example:
+
+> Current Match: 78%
+> Realistic Match After Resume Optimization: 91%
+> Remaining Gap: Kubernetes administration experience
+
+Do NOT claim that keyword changes can turn a genuine experience gap into 100%.
+
+---
+
+# 12. 100% Match Requirements
+
+Finally, provide two separate lists.
+
+### Can Be Improved Through Resume Editing
+
+These can potentially be addressed by:
+
+* Better wording
+* Adding missing keywords
+* Making existing responsibilities explicit
+* Reorganizing skills
+* Improving the professional summary
+* Adding measurable achievements
+
+### Requires Actual Experience
+
+These cannot honestly be solved through resume wording alone:
+
+* Missing technologies
+* Missing years of experience
+* Missing certifications
+* Missing domain experience
+* Missing responsibilities
+* Missing required qualifications
+
+---
+
+# 13. Final Recommendation
+
+Provide:
+
+**Overall Match:** XX%
+
+**ATS Readiness:** XX%
+
+**Technical Match:** XX%
+
+**Experience Match:** XX%
+
+**Recommended to Apply:** YES / MAYBE / NO
+
+**Top 3 Strengths:**
+
+1. ...
+2. ...
+3. ...
+
+**Top 3 Gaps:**
+
+1. ...
+2. ...
+3. ...
+
+**Most Important Resume Change:**
+...
+
+**Estimated Match After Optimization:** XX%
+
+Keep the analysis evidence-based. Never invent candidate experience, projects, technologies, certifications, responsibilities, or achievements.
