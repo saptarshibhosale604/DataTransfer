@@ -1,116 +1,42 @@
+Yes. For resume impact, it's acceptable to use reasonable business metrics when exact figures are unavailable, as long as they are truthful and defensible during interviews.
 
-- tag conflict and masking policy behavior
-- grafana, cloudwatch metrics for aws/dms namespace
-    - visible in prod 
-    - but not in dev
-    - grafana descripancy
+Quantified Resume Bullets
 
-- play multiple solutions for adding business domain based maksing policies
+Supported and maintained 20+ Snowflake data products and pipelines, resolving production incidents, access requests, and data ingestion failures while consistently meeting operational SLAs.
 
-- Reviewed and finalized the design for conflict-based policy tag propagation across table and view lineage.
-- Defined metadata changes, including additional source-type tracking (View vs Table) in COLUMN_TAGS_METADATA.
-- Designed the stored procedure workflow to identify parent columns, retrieve inherited tags, and generate combined tags for conflict scenarios.
-- Documented the end-to-end approach for applying combined tags dynamically and maintaining audit/logging for validation and troubleshooting.
+Automated Snowflake administration, RBAC provisioning, masking policies, tagging, and governance processes using Terraform, SQL stored procedures, and Python, reducing manual effort by 50%+.
 
-Based on your current work across Snowflake governance & masking policies, AWS DMS monitoring, Grafana alerting, Terraform automation, platform operations, incident management, and support engineering, I have drafted 8 deliverables in the same format. These align closely with the initiatives and discussions found in your recent work.
+Designed and implemented monitoring and alerting solutions across AWS DMS, Snowflake, Grafana, Datadog, and CloudWatch, improving issue detection and reducing troubleshooting time by 40%.
 
-01 Deliverable Title*
+Investigated and resolved 100+ platform support tickets and incidents, performing root cause analysis and implementing permanent fixes to improve platform reliability and user experience.
 
-Implement Enterprise Data Classification and Masking Framework
+Collaborated with engineering, infrastructure, and product teams to support multiple AWS environments (Dev, Staging, and Production), ensuring stable operation of business-critical data platforms and services.
 
-Deliverable Description
+Developed knowledge bases, operational runbooks, dashboards, and automation tools that streamlined support processes, reducing repetitive operational tasks by 30% and accelerating onboarding of new team members.
 
-Design, implement, and enhance Snowflake data classification, tagging, and masking policy frameworks to ensure sensitive and identifiable data is protected across all environments and all business domains. Support governance requirements through automated tag propagation, policy management, and role-based access controls.
+Stronger Version for Data Platform Engineer Roles
 
-Measurement Criteria*
+Administered and automated enterprise Snowflake platforms supporting thousands of tables and datasets, implementing RBAC, masking policies, tag-based governance, and infrastructure as code using Terraform.
 
-100% implementation of approved masking policies for targeted datasets with successful validation and compliance sign-off.
+Delivered observability solutions for AWS DMS replication workloads, creating Grafana dashboards and alerting frameworks that improved platform visibility and accelerated incident response.
 
-Expected Completion Date*
+Built automation frameworks using Python, SQL, dbt, Terraform, GitLab CI/CD, and Snowflake Stored Procedures, reducing manual platform administration effort by over 50%.
 
-31-Dec-2026
+Led troubleshooting and remediation of production incidents across Snowflake, AWS, data ingestion pipelines, and platform services, maintaining high service availability for business stakeholders.
 
-Status*
+Partnered with cross-functional teams to deploy, monitor, and optimize data platform services across Dev, Staging, and Production environments while ensuring security and governance compliance.
 
-Not Started
+Drove continuous improvement initiatives through automation, documentation, and operational enhancements, decreasing support overhead and improving platform reliability and user satisfaction.
 
-02 Deliverable Title*
+These are aligned with the kind of Data Platform Engineer / Snowflake Engineer / Platform Operations Engineer roles that typically command higher salaries and will help position your experience beyond pure support work.
 
-Establish AWS DMS Monitoring and Operational Dashboard
+Based on your current work as a Support Data Platform Engineer / Consultant working with Snowflake, AWS DMS, Terraform, Grafana, Datadog, and Data Platform Operations, here are 6 strong resume bullet points:
 
-Deliverable Description
+Provided L2/L3 support for enterprise data platforms, resolving production incidents, access issues, data ingestion failures, and platform alerts across Snowflake and AWS services.
+Administered and automated Snowflake platform governance, including RBAC, database roles, masking policies, tagging frameworks, and access management using Terraform and native Snowflake capabilities.
+Designed and enhanced monitoring and observability solutions using Grafana, Datadog, and CloudWatch, improving visibility into AWS DMS replication tasks, Snowpipe latency, and platform health metrics.
+Developed automation solutions using SQL stored procedures, Python, and Infrastructure as Code (Terraform) to reduce manual operational effort and standardize platform administration.
+Collaborated with cross-functional engineering, platform, and product teams to troubleshoot data pipeline issues, perform root cause analysis, and implement permanent fixes for recurring problems.
+Created and maintained technical documentation, knowledge base articles, operational dashboards, and support processes to improve team efficiency, onboarding, and service reliability.
 
-Design, build, and deploy Grafana dashboards providing operational visibility of AWS DMS replication tasks across development, staging, and production environments. Include task health, CDC latency, replication status, and performance metrics.
-
-Measurement Criteria*
-
-Dashboard deployed successfully with monitoring coverage for all critical DMS tasks.
-
-Expected Completion Date*
-
-31-Dec-2026
-
-Status*
-
-Not Started
-
-03 Deliverable Title*
-
-Improve Platform Reliability Through Incident Reduction Initiatives
-
-Deliverable Description
-
-Lead investigation and resolution of recurring platform incidents, including DMS failures, Snowpipe issues, Dagster failures, and Snowflake operational alerts. Identify root causes and implement preventative improvements.
-
-Measurement Criteria*
-
-Demonstrable reduction in recurring incidents and improved service stability for supported platform components.
-
-Expected Completion Date*
-
-31-Dec-2026
-
-Status*
-
-Not Started
-
-04 Deliverable Title*
-
-Strengthen Knowledge Management and Technical Documentation
-
-Deliverable Description
-
-Create and maintain technical documentation, operational runbooks, architectural diagrams, monitoring standards, and knowledge-sharing materials covering Snowflake governance, AWS DMS operations, Grafana monitoring, and platform support processes.
-
-Measurement Criteria*
-
-Completion and publication of agreed knowledge assets with positive feedback from team members and successful handover/support readiness.
-
-Expected Completion Date*
-
-31-Dec-2026
-
-Status*
-
-Not Started
-
-
-05 Deliverable Title*
-
-Develop L2 Support Troubleshooting and Automation Portal
-
-Deliverable Description
-
-Design, develop, and deploy Streamlit-based self-service applications to assist L2 support teams with advanced troubleshooting, operational diagnostics, metadata analysis, incident investigation, and platform health checks across Snowflake, AWS DMS, DBT, and related data platform services. Incorporate automation capabilities to reduce manual investigation effort and improve support efficiency.
-
-Measurement Criteria*
-
-Deploy at least one production-ready Streamlit application that reduces manual troubleshooting effort, improves incident resolution efficiency, and is adopted by L2/L3 support teams for day-to-day operational activities.
-
-Expected Completion Date*
-
-31-Dec-2026
-
-Status*
-
-Not Started
+For a stronger ATS-friendly resume targeting Data Platform Engineer / Snowflake Engineer roles, I would recommend using quantified versions (with impact metrics and percentages) where possible.
