@@ -250,7 +250,7 @@ Data Platform & Production Support Consultant with hands-on experience supportin
 > **Note:** The packages below are indicative target ranges, not guaranteed offers. Actual compensation will depend on total experience, interview performance, location, company type and whether the figure represents fixed pay or total CTC.
 
 ---
-
+Job categories (Ref from HL copilot)
 # A — Dream Jobs
 
 You currently meet approximately **60–70% of the likely requirements**.
@@ -368,8 +368,144 @@ Focus your experience on measurable engineering outcomes:
 
 
 
+JOB Categories (based on RESUME 25)
+**Category A — Dream Jobs (60–70% Match)**
+
+```python
+md_content = """# Data Engineering Job Target Strategy & Compensation Analysis
+
+Based on your resume (~2–3 years of experience at Cognizant, specialized in Snowflake, AWS, Python, DBT, and AI automation), here is the structured job target breakdown categorized by match probability and estimated CTC (Compensation) packages in India.
+
+---
+
+## Category A — Dream Jobs
+* **Match Level:** 60–70% Match | **Strategy:** Apply & Customize Resume
+* **Focus:** High-growth roles leveraging advanced AI architectures, senior platform engineering, or specialized analytics modeling.
+
+| Job Title | Expected CTC Package (India) | Key Technical Skill Alignment | Gap / Area to Highlight |
+| :--- | :--- | :--- | :--- |
+| **LLM / AI Data Engineer** | **₹16.0 – ₹24.0 LPA** | LangChain, LangGraph, Python, Docker, Prompt Engineering, Gemini API | Production vector databases (ChromaDB, Pinecone), fine-tuning |
+| **Senior Data Platform Engineer** | **₹18.0 – ₹26.0 LPA** | Snowflake, AWS (S3, Glue, Lambda), Terraform, PySpark, RBAC | Multi-cloud architecture, large-scale system design |
+| **Analytics Engineer** | **₹14.0 – ₹20.0 LPA** | DBT, SQL, Snowflake, Data Warehousing, Data Modeling | Advanced semantic layers, BI tool integrations (PowerBI/Tableau) |
+
+---
+
+## Category B — Target Jobs
+* **Match Level:** 75–90% Match | **Strategy:** Apply Aggressively
+* **Focus:** Core data engineering and platform reliability roles directly matching your daily stack and project background.
+
+| Job Title | Expected CTC Package (India) | Key Technical Skill Alignment | Gap / Area to Highlight |
+| :--- | :--- | :--- | :--- |
+| **Data Engineer (Cloud / ETL)** | **₹11.0 – ₹17.0 LPA** | Python, SQL, PySpark, DBT, Snowflake, AWS (S3, Glue, Lambda, DMS) | Custom pipeline optimization, end-to-end data pipelines |
+| **Data Infrastructure / Cloud Engineer** | **₹12.0 – ₹18.0 LPA** | Terraform, Docker, AWS IAM, Snowflake RBAC, Security & Governance | CI/CD pipeline automation (GitHub Actions / GitLab CI) |
+| **Data Reliability Engineer (DRE)** | **₹10.0 – ₹16.0 LPA** | Datadog, Grafana, CloudWatch, Snowpipe, Root Cause Analysis, Support | SRE principles, automated self-healing pipeline scripts |
+
+---
+
+## Category C — Safety Jobs
+* **Match Level:** 95–100% Match | **Strategy:** High Probability Fallback
+* **Focus:** Roles where you meet nearly every job requirement based on your current support, operational, and admin duties at Cognizant.
+
+| Job Title | Expected CTC Package (India) | Key Technical Skill Alignment | Gap / Area to Highlight |
+| :--- | :--- | :--- | :--- |
+| **Snowflake Administrator / Specialist** | **₹8.0 – ₹13.0 LPA** | Snowflake Object Management, Network Security, Whitelisting, RBAC, Terraform | None (100% direct experience match) |
+| **Data Production Support Engineer (L2/L3)** | **₹7.0 – ₹11.0 LPA** | ServiceNow, Jira, Log Analysis, Incident Handling, SLA Resolution, Python | None (100% direct experience match) |
+| **ETL Support & Maintenance Engineer** | **₹8.0 – ₹12.0 LPA** | Snowpipe, AWS DMS, Stored Procedures, DBT Monitoring, Failure Fixes | None (100% direct experience match) |
+
+---
+
+## Summary & Actionable Recommendations
+
+1. **For Category A (Dream Jobs):**
+   * Highlight your **Personal Assistant** project (LangChain, LangGraph, Docker) and **Home Automation** project (Gemini LLM) at the top of your resume when applying.
+   * Quantify how you used **Prompt Engineering / LLMs** at Cognizant to automate operational workflows.
+
+2. **For Category B (Target Jobs):**
+   * Emphasize your dual expertise in both **Pipeline Construction** (Python, DBT, PySpark, Snowflake) and **Infrastructure-as-Code** (Terraform).
+   * Position yourself as a full-lifecycle engineer who can build pipelines *and* handle observability/monitoring (Datadog/Grafana).
+
+3. **For Category C (Safety Jobs):**
+   * Keep a tailored version of your resume focusing heavily on **L2/L3 support, SLAs, ServiceNow, RBAC, and Snowflake administration**.
+"""
+
+with open("data_engineering_job_categories.md", "w") as f:
+    f.write(md_content)
+
+print("Markdown file generated successfully.")
 
 
+```
+
+```text
+Markdown file generated successfully.
+
+
+```
+
+Your Markdown file is ready:
+
+
+Here is the structured list in Markdown format focused exclusively on Indian CTC packages:
+
+# Data Engineering Job Target Strategy & Compensation Analysis
+
+Based on your resume (~2–3 years of experience at Cognizant, specialized in Snowflake, AWS, Python, DBT, and AI automation), here is the structured job target breakdown categorized by match probability and estimated CTC packages in India.
+
+---
+
+## Category A — Dream Jobs
+
+* **Match Level:** 60–70% Match | **Strategy:** Apply & Customize Resume
+* **Focus:** High-growth roles leveraging advanced AI architectures, senior platform engineering, or specialized analytics modeling.
+
+| Job Title | Expected CTC Package (India) | Key Technical Skill Alignment | Gap / Area to Highlight |
+| --- | --- | --- | --- |
+| **LLM / AI Data Engineer** | **₹16.0 – ₹24.0 LPA** | LangChain, LangGraph, Python, Docker, Prompt Engineering, Gemini API | Production vector databases (ChromaDB, Pinecone), fine-tuning |
+| **Senior Data Platform Engineer** | **₹18.0 – ₹26.0 LPA** | Snowflake, AWS (S3, Glue, Lambda), Terraform, PySpark, RBAC | Multi-cloud architecture, large-scale system design |
+| **Analytics Engineer** | **₹14.0 – ₹20.0 LPA** | DBT, SQL, Snowflake, Data Warehousing, Data Modeling | Advanced semantic layers, BI tool integrations (PowerBI/Tableau) |
+
+---
+
+## Category B — Target Jobs
+
+* **Match Level:** 75–90% Match | **Strategy:** Apply Aggressively
+* **Focus:** Core data engineering and platform reliability roles directly matching your daily stack and project background.
+
+| Job Title | Expected CTC Package (India) | Key Technical Skill Alignment | Gap / Area to Highlight |
+| --- | --- | --- | --- |
+| **Data Engineer (Cloud / ETL)** | **₹11.0 – ₹17.0 LPA** | Python, SQL, PySpark, DBT, Snowflake, AWS (S3, Glue, Lambda, DMS) | Custom pipeline optimization, end-to-end data pipelines |
+| **Data Infrastructure / Cloud Engineer** | **₹12.0 – ₹18.0 LPA** | Terraform, Docker, AWS IAM, Snowflake RBAC, Security & Governance | CI/CD pipeline automation (GitHub Actions / GitLab CI) |
+| **Data Reliability Engineer (DRE)** | **₹10.0 – ₹16.0 LPA** | Datadog, Grafana, CloudWatch, Snowpipe, Root Cause Analysis, Support | SRE principles, automated self-healing pipeline scripts |
+
+---
+
+## Category C — Safety Jobs
+
+* **Match Level:** 95–100% Match | **Strategy:** High Probability Fallback
+* **Focus:** Roles where you meet nearly every job requirement based on your current support, operational, and admin duties at Cognizant.
+
+| Job Title | Expected CTC Package (India) | Key Technical Skill Alignment | Gap / Area to Highlight |
+| --- | --- | --- | --- |
+| **Snowflake Administrator / Specialist** | **₹8.0 – ₹13.0 LPA** | Snowflake Object Management, Network Security, Whitelisting, RBAC, Terraform | None (100% direct experience match) |
+| **Data Production Support Engineer (L2/L3)** | **₹7.0 – ₹11.0 LPA** | ServiceNow, Jira, Log Analysis, Incident Handling, SLA Resolution, Python | None (100% direct experience match) |
+| **ETL Support & Maintenance Engineer** | **₹8.0 – ₹12.0 LPA** | Snowpipe, AWS DMS, Stored Procedures, DBT Monitoring, Failure Fixes | None (100% direct experience match) |
+
+---
+
+## Summary & Actionable Recommendations
+
+1. **For Category A (Dream Jobs):**
+* Highlight your **Personal Assistant** project (LangChain, LangGraph, Docker) and **Home Automation** project (Gemini LLM) at the top of your resume when applying.
+* Quantify how you used **Prompt Engineering / LLMs** at Cognizant to automate operational workflows.
+
+
+2. **For Category B (Target Jobs):**
+* Emphasize your dual expertise in both **Pipeline Construction** (Python, DBT, PySpark, Snowflake) and **Infrastructure-as-Code** (Terraform).
+* Position yourself as a full-lifecycle engineer who can build pipelines *and* handle observability/monitoring (Datadog/Grafana).
+
+
+3. **For Category C (Safety Jobs):**
+* Keep a tailored version of your resume focusing heavily on **L2/L3 support, SLAs, ServiceNow, RBAC, and Snowflake administration**.
 
 
 
