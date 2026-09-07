@@ -50,3 +50,5 @@ Raw Data:
 
 * **Key Strengths:** Snowflake platform administration, RBAC governance, dbt analytics engineering, Python/SQL automation, Gen AI frameworks (LangChain, Streamlit, LLMs), IT-Finance domain workload support.
 * **Gaps / Areas for Improvement:** Lack of explicit Snowflake Cortex / Snowpark ML operationalization experience, missing domain exposure to core banking platforms (Avaloq Core Platform), and requirement for a platform-first senior engineer with deep financial data modeling experience (P&L, risk, positions).
+
+* In review: https://jobs.smartrecruiters.com/my-applications/Avaloq1/54ee9cfa-7f55-47ef-82be-a951352eb848?dcr_ci=Avaloq1
