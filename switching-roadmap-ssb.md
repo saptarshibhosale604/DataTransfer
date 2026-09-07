@@ -1026,3 +1026,455 @@ Notes
 # Core Principle
 
 > **Don't try to maximize the number of applications. Maximize the number of high-quality opportunities reaching the interview stage.**
+
+
+
+
+
+
+Below is a 45-company target list optimized around your Snowflake + AWS + Python + dbt + data-platform/automation background, with Tier A skewed toward higher-growth/high-compensation opportunities.
+
+# Target-Company List — Data Engineering
+
+## Candidate Profile
+
+- Experience: ~2–3 years
+- Current Company: Cognizant
+- Primary Skills:
+  - Snowflake
+  - AWS
+  - Python
+  - SQL
+  - dbt
+  - Terraform
+  - Docker
+  - Data Engineering
+  - Data Platform Support
+  - Data Reliability / Observability
+  - AI / LLM Automation
+- Target Roles:
+  - Data Engineer
+  - Cloud Data Engineer
+  - Data Platform Engineer
+  - Analytics Engineer
+  - Data Infrastructure Engineer
+  - Data Reliability Engineer
+  - Snowflake Engineer / Specialist
+  - AI / LLM Data Engineer
+- Target Experience: 2–4 years
+- Target Market: India
+- Primary Goal: Maximize compensation + technical growth + long-term career value
+
+---
+
+# Tier A — Dream Companies
+
+> Strategy: Apply + strongly customize resume + prioritize referrals.
+>
+> Target: High-growth companies, strong engineering culture, advanced data platforms,
+> AI exposure, strong compensation and long-term career growth.
+
+| # | Company | Priority Roles | Expected CTC Target |
+|---|---|---|---|
+| 1 | Databricks | Data Engineer / Data Platform Engineer | ₹20–30+ LPA |
+| 2 | Snowflake | Data Engineer / Cloud Data Engineer | ₹20–30+ LPA |
+| 3 | Google | Data Engineer / Cloud Data Engineer | ₹18–30+ LPA |
+| 4 | Microsoft | Data Engineer / Azure Data Engineer | ₹18–28+ LPA |
+| 5 | Amazon | Data Engineer / AWS Data Engineer | ₹18–28+ LPA |
+| 6 | Adobe | Data Engineer / Analytics Engineer | ₹18–27+ LPA |
+| 7 | Atlassian | Data Engineer / Data Platform Engineer | ₹20–30+ LPA |
+| 8 | Uber | Data Engineer / Analytics Engineer | ₹18–28+ LPA |
+| 9 | Walmart Global Tech | Data Engineer / Data Platform Engineer | ₹16–25+ LPA |
+| 10 | Salesforce | Data Engineer / Data Cloud Engineer | ₹16–25+ LPA |
+| 11 | ServiceNow | Data Engineer / Platform Engineer | ₹16–25+ LPA |
+| 12 | JPMorgan Chase | Data Engineer / Data Platform Engineer | ₹15–24+ LPA |
+| 13 | Goldman Sachs | Data Engineer / Analytics Engineer | ₹16–25+ LPA |
+| 14 | American Express | Data Engineer / Data Platform Engineer | ₹15–24+ LPA |
+| 15 | PhonePe | Data Engineer / Data Platform Engineer | ₹16–25+ LPA |
+
+### Tier A Focus
+
+- Snowflake
+- AWS
+- Python
+- SQL
+- dbt
+- PySpark
+- Terraform
+- Data Platform Engineering
+- Data Reliability
+- AI/LLM Data Engineering
+- Vector Databases
+- LangChain / LangGraph
+- Cloud Architecture
+- Data Governance
+
+---
+
+# Tier B — Strong Targets
+
+> Strategy: Apply aggressively.
+>
+> Target: Strong technology companies with good compensation, relevant cloud/data
+> stacks and realistic opportunities for 2–4 YOE candidates.
+
+| # | Company | Priority Roles | Expected CTC Target |
+|---|---|---|---|
+| 1 | NVIDIA | Data Engineer / Data Platform Engineer | ₹15–24 LPA |
+| 2 | Oracle | Cloud Data Engineer / Data Engineer | ₹13–21 LPA |
+| 3 | Cisco | Data Engineer / Cloud Data Engineer | ₹14–22 LPA |
+| 4 | PayPal | Data Engineer / Analytics Engineer | ₹14–22 LPA |
+| 5 | Mastercard | Data Engineer / Data Platform Engineer | ₹14–22 LPA |
+| 6 | Visa | Data Engineer / Analytics Engineer | ₹14–22 LPA |
+| 7 | Intuit | Data Engineer / Analytics Engineer | ₹15–24 LPA |
+| 8 | Expedia Group | Data Engineer / Analytics Engineer | ₹14–22 LPA |
+| 9 | Booking.com | Data Engineer / Analytics Engineer | ₹15–24 LPA |
+| 10 | LinkedIn | Data Engineer / Data Platform Engineer | ₹16–25 LPA |
+| 11 | Flipkart | Data Engineer / Data Platform Engineer | ₹14–23 LPA |
+| 12 | Razorpay | Data Engineer / Data Platform Engineer | ₹14–22 LPA |
+| 13 | Zomato | Data Engineer / Analytics Engineer | ₹13–21 LPA |
+| 14 | Swiggy | Data Engineer / Data Platform Engineer | ₹13–21 LPA |
+| 15 | Meesho | Data Engineer / Analytics Engineer | ₹13–21 LPA |
+| 16 | Groww | Data Engineer / Data Platform Engineer | ₹14–22 LPA |
+| 17 | CRED | Data Engineer / Analytics Engineer | ₹14–23 LPA |
+| 18 | Freshworks | Data Engineer / Cloud Data Engineer | ₹12–20 LPA |
+
+### Tier B Focus
+
+- Data Engineering
+- ETL / ELT
+- Snowflake
+- AWS
+- dbt
+- Python
+- SQL
+- PySpark
+- Data Warehousing
+- Data Modeling
+- Terraform
+- CI/CD
+- Data Platform Operations
+- Monitoring / Observability
+
+---
+
+# Tier C — Backup / High-Probability Targets
+
+> Strategy: Apply when the role has strong Snowflake/AWS alignment or offers a meaningful
+> compensation increase.
+>
+> Goal: Maintain a healthy interview pipeline and provide fallback options without
+> limiting long-term career growth.
+
+| # | Company | Priority Roles | Expected CTC Target |
+|---|---|---|---|
+| 1 | Accenture | Snowflake Engineer / Data Engineer | ₹10–16 LPA |
+| 2 | Deloitte | Data Engineer / Cloud Data Engineer | ₹10–16 LPA |
+| 3 | EY | Data Engineer / Snowflake Specialist | ₹9–15 LPA |
+| 4 | KPMG | Data Engineer / Cloud Data Engineer | ₹9–15 LPA |
+| 5 | Capgemini | Snowflake Engineer / Data Engineer | ₹9–14 LPA |
+| 6 | Wipro | Snowflake Engineer / Data Engineer | ₹8–14 LPA |
+| 7 | Infosys | Data Engineer / Snowflake Specialist | ₹8–14 LPA |
+| 8 | HCLTech | Data Engineer / Snowflake Engineer | ₹9–15 LPA |
+| 9 | Tech Mahindra | Data Engineer / Cloud Data Engineer | ₹8–14 LPA |
+| 10 | LTIMindtree | Data Engineer / Snowflake Engineer | ₹9–15 LPA |
+| 11 | Persistent Systems | Data Engineer / Cloud Data Engineer | ₹10–17 LPA |
+| 12 | Mphasis | Snowflake Engineer / Data Engineer | ₹9–15 LPA |
+| 13 | Hexaware | Data Engineer / Snowflake Specialist | ₹9–15 LPA |
+| 14 | Cognizant | Data Engineer / Snowflake Specialist | ₹8–14 LPA |
+| 15 | Birlasoft | Data Engineer / Snowflake Engineer | ₹8–14 LPA |
+
+---
+
+# Company Priority Ranking
+
+## S-Tier — Apply First
+
+1. Databricks
+2. Snowflake
+3. Google
+4. Microsoft
+5. Amazon
+6. Atlassian
+7. Adobe
+8. Uber
+
+## A-Tier — High Priority
+
+9. Salesforce
+10. ServiceNow
+11. Walmart Global Tech
+12. JPMorgan Chase
+13. Goldman Sachs
+14. PhonePe
+15. NVIDIA
+16. Intuit
+17. LinkedIn
+18. Visa
+19. Mastercard
+
+## B-Tier — Strong Targets
+
+20. Flipkart
+21. Razorpay
+22. Groww
+23. CRED
+24. Swiggy
+25. Zomato
+26. Meesho
+27. PayPal
+28. Cisco
+29. Oracle
+30. Expedia Group
+31. Booking.com
+32. Freshworks
+
+## C-Tier — Backup
+
+33. Persistent Systems
+34. Accenture
+35. Deloitte
+36. LTIMindtree
+37. HCLTech
+38. Mphasis
+39. Hexaware
+40. EY
+41. KPMG
+42. Capgemini
+43. Infosys
+44. Wipro
+45. Tech Mahindra
+46. Birlasoft
+47. Cognizant
+
+---
+
+# Application Strategy
+
+## Tier A
+
+- Apply only to highly relevant roles.
+- Customize resume for every application.
+- Prioritize employee referrals.
+- Contact recruiters after applying.
+- Target 2–4 YOE positions.
+- Highlight:
+  - Snowflake
+  - AWS
+  - Python
+  - dbt
+  - Terraform
+  - Data Engineering
+  - AI automation
+  - Production troubleshooting
+  - Data platform engineering
+
+## Tier B
+
+- Apply aggressively.
+- Use the same base resume with targeted keyword modifications.
+- Apply through:
+  - LinkedIn
+  - Naukri
+  - Company career portals
+  - Referrals
+  - Recruiters
+- Target approximately 10–15 applications/week.
+
+## Tier C
+
+- Use as pipeline insurance.
+- Apply primarily when:
+  - Snowflake is a major requirement.
+  - AWS is required.
+  - Python/SQL/dbt are required.
+  - Data platform/support experience is valued.
+  - CTC represents a meaningful increase.
+- Avoid accepting a role that is primarily repetitive L1 support.
+
+---
+
+# Target Role Priority
+
+## 1. Data Engineer
+
+Best overall target.
+
+Skills to emphasize:
+
+- Python
+- SQL
+- Snowflake
+- AWS
+- dbt
+- ETL/ELT
+- Data Pipelines
+- Data Modeling
+- PySpark
+
+## 2. Data Platform Engineer
+
+Best long-term specialization.
+
+Skills to emphasize:
+
+- Snowflake
+- AWS
+- Terraform
+- IAM
+- RBAC
+- Security
+- Governance
+- CI/CD
+- Monitoring
+- Automation
+
+## 3. Data Reliability Engineer
+
+Strong fit with production experience.
+
+Skills to emphasize:
+
+- Incident Management
+- RCA
+- Snowpipe
+- AWS DMS
+- Datadog
+- Grafana
+- CloudWatch
+- Automation
+- Python
+- Production Support
+
+## 4. Analytics Engineer
+
+Good secondary target.
+
+Skills to emphasize:
+
+- SQL
+- dbt
+- Snowflake
+- Data Modeling
+- Data Warehousing
+- Analytics
+- BI integrations
+
+## 5. AI / LLM Data Engineer
+
+High-upside stretch target.
+
+Skills to emphasize:
+
+- Python
+- LangChain
+- LangGraph
+- LLM APIs
+- Prompt Engineering
+- Docker
+- ChromaDB
+- Vector Databases
+- RAG
+- AI Automation
+
+---
+
+# Compensation Strategy
+
+## Current Baseline
+
+- Current CTC: ~₹6.6 LPA
+
+## Minimum Target
+
+- ₹10–11 LPA
+
+## Good Target
+
+- ₹12–16 LPA
+
+## Strong Target
+
+- ₹16–20 LPA
+
+## Dream Target
+
+- ₹20 LPA+
+
+### Negotiation Rule
+
+Do not select companies only by CTC.
+
+Evaluate:
+
+1. Base salary
+2. Variable pay
+3. Joining bonus
+4. ESOP/RSU value
+5. Role quality
+6. Technology stack
+7. Data engineering exposure
+8. Cloud exposure
+9. AI exposure
+10. Growth potential
+11. Work location
+12. Work-life balance
+
+---
+
+# Recommended Application Mix
+
+For every 100 applications:
+
+- 20% — Tier A
+- 50% — Tier B
+- 30% — Tier C
+
+Example:
+
+- 20 Dream-company applications
+- 50 Strong-target applications
+- 30 Backup applications
+
+---
+
+# Primary Career Direction
+
+Target progression:
+
+Cognizant
+    ↓
+Data Engineer / Cloud Data Engineer
+    ↓
+Data Platform Engineer
+    ↓
+Senior Data Engineer / Senior Data Platform Engineer
+    ↓
+Data Architect / AI Data Platform Engineer
+
+---
+
+# Main Resume Positioning
+
+> Data Engineer / Data Platform Engineer specializing in Snowflake, AWS, Python,
+> dbt, Terraform, data platform automation, production reliability, and AI-powered
+> operational tooling.
+
+# Avoid Positioning Yourself Primarily As
+
+- L1 Support Engineer
+- Generic Production Support Engineer
+- Manual ETL Support Engineer
+- Generic SQL Developer
+- Snowflake Administrator only
+
+# Preferred Positioning
+
+- Data Engineer
+- Cloud Data Engineer
+- Data Platform Engineer
+- Data Infrastructure Engineer
+- Data Reliability Engineer
+- Snowflake Data Engineer
+- Analytics Engineer
+- AI / LLM Data Engineer
