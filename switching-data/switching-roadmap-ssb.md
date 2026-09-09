@@ -121,6 +121,79 @@
 
 ## C. Problems You've Solved
 
+STAR (Situation, Task, Action, Result)
+
+INTERVIEW QUESTION
+│
+└── "Explain a challenge you faced related to masking policies in Snowflake"
+    │
+    ▼
+[S] SITUATION (10-15 sec)
+    │
+    ├─ What was the business problem?
+    ├─ Why was it important?
+    └─ What was the impact/risk?
+    │
+    └─ Example:
+       "We found conflicting data-classification tags on sensitive
+       columns in Snowflake, creating uncertainty about which
+       masking policy should be applied."
+    │
+    ▼
+[T] TASK (10-15 sec)
+    │
+    ├─ What was YOUR responsibility?
+    └─ What outcome were you expected to achieve?
+    │
+    └─ Example:
+       "I was responsible for identifying the conflicts,
+       determining the correct classifications, and ensuring
+       masking policies were consistently applied."
+    │
+    ▼
+[A] ACTION (60-70 sec)  ← Spend most of your time here
+    │
+    ├─ Investigated metadata
+    │
+    ├─ Identified conflicting tags
+    │
+    ├─ Used lineage analysis to trace source objects
+    │
+    ├─ Worked with governance/business teams
+    │
+    ├─ Determined correct classifications
+    │
+    ├─ Automated validation using SQL/SP
+    │
+    ├─ Updated tags and masking policies
+    │
+    └─ Added proactive monitoring/checks
+    │
+    ▼
+[R] RESULT (20-25 sec)
+    │
+    ├─ What was fixed?
+    ├─ What was the business value?
+    ├─ Any measurable impact?
+    └─ What did you learn?
+    │
+    └─ Example:
+       "We eliminated classification conflicts, ensured
+       sensitive data was properly protected, reduced manual
+       investigation effort from hours to minutes, and improved
+       governance compliance across the platform."
+    │
+    ▼
+CLOSING (5 sec)
+    │
+    └─ "This experience showed me the importance of combining
+       data lineage, automation, and governance to manage
+       masking policies effectively at scale."
+
+- Business users lacked visibility into platform performance and support trends → Created automated reporting dashboards showing incidents, SLAs, platform health, and operational metrics.
+- Support teams spent hours manually investigating recurring incidents → Developed a Streamlit-based troubleshooting tool that accelerated diagnosis and reduced resolution times.
+- Lack of visibility into DMS task health meant issues were discovered too late → Designed Grafana dashboards and alerting to provide real-time monitoring and faster incident response.
+
 ### Snowflake Permission Management
 
 **Problem**  
