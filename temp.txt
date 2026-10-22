@@ -4,3 +4,55 @@ Log / query tool
 Monitoring / APM platform
 Scripting / automation
 Ticket / JIRA tool
+
+Based on your current Data Platform / Snowflake / AWS support work, you could use:
+
+ITSM Tool
+
+ServiceNow
+Jira Service Management
+Opsgenie
+Confluence
+PagerDuty
+
+Log / Query Tool
+
+Snowflake SQL
+CloudWatch Logs Insights
+Athena
+Grafana Explore
+Sigma
+
+Monitoring / APM Platform
+
+Grafana
+Datadog
+AWS CloudWatch
+Splunk Observability
+Prometheus
+
+Scripting / Automation
+
+Python
+PowerShell
+Bash
+Terraform
+GitLab CI/CD
+
+Ticket / JIRA Tool
+
+Jira Software
+Jira Service Management
+Azure DevOps Boards
+Confluence
+GitLab Issues
+
+Additional technical skills relevant to your role
+
+Snowflake Administration
+AWS DMS
+RBAC & Access Management
+Data Governance & Masking Policies
+Incident Management & Production Support
+
+These align closely with your recent work around Snowflake, AWS DMS monitoring, Grafana alerting, Terraform, GitLab, and Jira workflows.
