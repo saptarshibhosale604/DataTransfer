@@ -1,42 +1,6 @@
-Yes. For resume impact, it's acceptable to use reasonable business metrics when exact figures are unavailable, as long as they are truthful and defensible during interviews.
-
-Quantified Resume Bullets
-
-Supported and maintained 20+ Snowflake data products and pipelines, resolving production incidents, access requests, and data ingestion failures while consistently meeting operational SLAs.
-
-Automated Snowflake administration, RBAC provisioning, masking policies, tagging, and governance processes using Terraform, SQL stored procedures, and Python, reducing manual effort by 50%+.
-
-Designed and implemented monitoring and alerting solutions across AWS DMS, Snowflake, Grafana, Datadog, and CloudWatch, improving issue detection and reducing troubleshooting time by 40%.
-
-Investigated and resolved 100+ platform support tickets and incidents, performing root cause analysis and implementing permanent fixes to improve platform reliability and user experience.
-
-Collaborated with engineering, infrastructure, and product teams to support multiple AWS environments (Dev, Staging, and Production), ensuring stable operation of business-critical data platforms and services.
-
-Developed knowledge bases, operational runbooks, dashboards, and automation tools that streamlined support processes, reducing repetitive operational tasks by 30% and accelerating onboarding of new team members.
-
-Stronger Version for Data Platform Engineer Roles
-
-Administered and automated enterprise Snowflake platforms supporting thousands of tables and datasets, implementing RBAC, masking policies, tag-based governance, and infrastructure as code using Terraform.
-
-Delivered observability solutions for AWS DMS replication workloads, creating Grafana dashboards and alerting frameworks that improved platform visibility and accelerated incident response.
-
-Built automation frameworks using Python, SQL, dbt, Terraform, GitLab CI/CD, and Snowflake Stored Procedures, reducing manual platform administration effort by over 50%.
-
-Led troubleshooting and remediation of production incidents across Snowflake, AWS, data ingestion pipelines, and platform services, maintaining high service availability for business stakeholders.
-
-Partnered with cross-functional teams to deploy, monitor, and optimize data platform services across Dev, Staging, and Production environments while ensuring security and governance compliance.
-
-Drove continuous improvement initiatives through automation, documentation, and operational enhancements, decreasing support overhead and improving platform reliability and user satisfaction.
-
-These are aligned with the kind of Data Platform Engineer / Snowflake Engineer / Platform Operations Engineer roles that typically command higher salaries and will help position your experience beyond pure support work.
-
-Based on your current work as a Support Data Platform Engineer / Consultant working with Snowflake, AWS DMS, Terraform, Grafana, Datadog, and Data Platform Operations, here are 6 strong resume bullet points:
-
-Provided L2/L3 support for enterprise data platforms, resolving production incidents, access issues, data ingestion failures, and platform alerts across Snowflake and AWS services.
-Administered and automated Snowflake platform governance, including RBAC, database roles, masking policies, tagging frameworks, and access management using Terraform and native Snowflake capabilities.
-Designed and enhanced monitoring and observability solutions using Grafana, Datadog, and CloudWatch, improving visibility into AWS DMS replication tasks, Snowpipe latency, and platform health metrics.
-Developed automation solutions using SQL stored procedures, Python, and Infrastructure as Code (Terraform) to reduce manual operational effort and standardize platform administration.
-Collaborated with cross-functional engineering, platform, and product teams to troubleshoot data pipeline issues, perform root cause analysis, and implement permanent fixes for recurring problems.
-Created and maintained technical documentation, knowledge base articles, operational dashboards, and support processes to improve team efficiency, onboarding, and service reliability.
-
-For a stronger ATS-friendly resume targeting Data Platform Engineer / Snowflake Engineer roles, I would recommend using quantified versions (with impact metrics and percentages) where possible.
+Project Skills
+ITSM tool
+Log / query tool
+Monitoring / APM platform
+Scripting / automation
+Ticket / JIRA tool
