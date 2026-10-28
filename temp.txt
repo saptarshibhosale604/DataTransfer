@@ -1,58 +1,137 @@
-Project Skills
-ITSM tool
-Log / query tool
-Monitoring / APM platform
-Scripting / automation
-Ticket / JIRA tool
+Package 1- Up to 35 years Male
+Reports:8 - 72 hrs
 
-Based on your current Data Platform / Snowflake / AWS support work, you could use:
+Prescription:Not Required
 
-ITSM Tool
+Fasting:10 - 12 hrs
 
-ServiceNow
-Jira Service Management
-Opsgenie
-Confluence
-PagerDuty
+Age:18 - 35 yrs
 
-Log / Query Tool
+Gender:M
 
-Snowflake SQL
-CloudWatch Logs Insights
-Athena
-Grafana Explore
-Sigma
+Not Available at 412115
 
-Monitoring / APM Platform
+Starting at 0 rupees₹0/-
 
-Grafana
-Datadog
-AWS CloudWatch
-Splunk Observability
-Prometheus
+Add To Cart
+About the package
+This package helps in early detection of common chronic diseases such as diabetes, cardiac diseases, digestive tract disorders, renal disorders etc. Health check up should be taken regularly to maintain health, early detection and effective management of diseases.
 
-Scripting / Automation
+39 Lab Tests In This Package:
 
-Python
-PowerShell
-Bash
-Terraform
-GitLab CI/CD
+Blood Grouping & Rh Type - EDTA Whole Blood - 2 Tests
+Blood Group ABO
+RH Typing
 
-Ticket / JIRA Tool
+Complete Blood Count (CBC) - EDTA Whole Blood - 24 Tests
+Absolute Basophils Count
+Absolute Eosinophil Count (AEC) - EDTA Whole Blood
+Absolute Lymphocytes Count
+Absolute Monocytes Count
+Absolute Neutrophils Count
+Basophils
+Eosinophils
+Hemoglobin - EDTA Whole Blood
+Lymphocytes
+MCHC
+MCV
+Mixed Cells
+Monocytes
+MPV
+Neutrophils
+P-LCR
+PCT
+PDW
+Platelet Count - EDTA Whole Blood
+R.B.C. Count
+RDW-CV
+RDW-SD
+Total WBC Count (TLC)
+MCH
 
-Jira Software
-Jira Service Management
-Azure DevOps Boards
-Confluence
-GitLab Issues
+Consultations - 2 Tests
+Physical Examination
+Physician Consultation
 
-Additional technical skills relevant to your role
+Others - 11 Tests
+Alanine Aminotransferase (ALT/SGPT) - Serum
+Aspartate Aminotransferase (AST/SGOT) - Serum
+Blood Urea Nitrogen (BUN) - Serum
+Cholesterol Total - Serum
+Electrocardiogram (ECG)
+Gamma Glutamyl Transpeptidase (GGT) - Serum
+Glucose Fasting (FBS) - Sodium Flouride
+Glucose Post Prandial (PPBS) - Sodium Flouride
+Uric Acid - Serum
+Urine Routine microscopy
+X-Ray Chest
 
-Snowflake Administration
-AWS DMS
-RBAC & Access Management
-Data Governance & Masking Policies
-Incident Management & Production Support
 
-These align closely with your recent work around Snowflake, AWS DMS monitoring, Grafana alerting, Terraform, GitLab, and Jira workflows.
+
+
+
+
+
+Medibuddy Screening Home Sample Package -< 35 Years Male
+Reports:8 - 72 hrs
+
+Prescription:Not Required
+
+Fasting:10 - 12 hrs
+
+Age:0 - 35 yrs
+
+Gender:M
+
+Not Available at 412115
+
+Starting at 0 rupees₹0/-
+
+Add To Cart
+42 Lab Tests In This Package:
+
+Differential Leukocyte Count (DLC) - EDTA Whole Blood - 5 Tests
+Basophils
+Eosinophils
+Lymphocytes
+Monocytes
+Neutrophils
+
+Others - 37 Tests
+Absolute Basophils Count
+Absolute Eosinophil Count (AEC) - EDTA Whole Blood
+Absolute Lymphocytes Count
+Absolute Monocytes Count
+Absolute Neutrophils Count
+Alanine Aminotransferase (ALT/SGPT) - Serum
+Aspartate Aminotransferase (AST/SGOT) - Serum
+Blood Urea Nitrogen (BUN) - Serum
+Bun/Creatinine Ratio, Serum
+Cholesterol Total - Serum
+Cholesterol/HDL Ratio
+Creatinine - Serum
+eGFR
+Erythrocyte Count (RBC Count) - EDTA Whole Blood
+Glucose Fasting (FBS) - Sodium Flouride
+HDL Cholesterol - Serum
+Hemoglobin - EDTA Whole Blood
+LDL Cholesterol Direct, Serum
+MCHC
+MCV
+MPV
+Non-HDL Cholesterol
+PCT
+Platelet Count - EDTA Whole Blood
+Platelet Distribution Width
+Platelet to large cell ratio
+RDW-CV
+RDW-SD
+Thyroid Stimulating Hormone (TSH) - Serum
+Total WBC Count (TLC)
+Triglycerides - Serum
+Urea - Serum
+Urea/Creatinine Ratio
+Uric Acid - Serum
+Vitamin B12 - Serum
+VLDL -Very Low Density Lipoprotein
+MCH
